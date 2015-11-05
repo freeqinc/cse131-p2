@@ -1,0 +1,137 @@
+Error, "output.rc", line 16: 
+  Field x declared second time in struct.
+Error, "output.rc", line 18: 
+  Field x declared second time in struct.
+Error, "output.rc", line 19: 
+  Field y declared second time in struct.
+Error, "output.rc", line 24: 
+  Duplicate declaration of overloaded function foo.
+Error, "output.rc", line 27: 
+  Duplicate declaration of overloaded function bar.
+Error, "output.rc", line 36: 
+  Field x declared second time in struct.
+Error, "output.rc", line 38: 
+  Field x declared second time in struct.
+Error, "output.rc", line 41: 
+  undeclared identifier 'ASDF'.
+Error, "output.rc", line 42: 
+  Field y declared second time in struct.
+Error, "output.rc", line 47: 
+  Duplicate declaration of overloaded function foo.
+Error, "output.rc", line 52: 
+  Field x declared second time in struct.
+Error, "output.rc", line 52: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "output.rc", line 53: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "output.rc", line 62: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 63: 
+  Value of type MYS5 not assignable to variable of type int.
+Error, "output.rc", line 64: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 74: 
+  Referenced field bar not found in current struct.
+Error, "output.rc", line 79: 
+  Referenced field zoo not found in current struct.
+Error, "output.rc", line 80: 
+  Number of arguments (1) differs from number of parameters (0).
+Error, "output.rc", line 85: 
+  redeclared identifier 'MYS'.
+Error, "output.rc", line 89: 
+  redeclared identifier 'MYS'.
+Error, "output.rc", line 93: 
+  redeclared identifier 'MYS'.
+Error, "output.rc", line 97: 
+  redeclared identifier 'TEST'.
+Error, "output.rc", line 106: 
+  Duplicate declaration of overloaded function MYS2.
+Error, "output.rc", line 106: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "output.rc", line 107: 
+  Duplicate declaration of overloaded function MYS2.
+Error, "output.rc", line 109: 
+  Duplicate declaration of overloaded function ~MYS2.
+Error, "output.rc", line 110: 
+  Name of constructor FOO does not match name of struct MYS2.
+Error, "output.rc", line 111: 
+  Name of destructor ~BAR does not match name of struct MYS2.
+Error, "output.rc", line 112: 
+  Duplicate declaration of overloaded function MYS2.
+Error, "output.rc", line 113: 
+  Duplicate declaration of overloaded function MYS2.
+Error, "output.rc", line 114: 
+  Duplicate declaration of overloaded function ~MYS2.
+Error, "output.rc", line 119: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "output.rc", line 139: 
+  undeclared identifier 'MYS_ZZZ'.
+Error, "output.rc", line 142: 
+  Number of arguments (2) differs from number of parameters (0).
+Error, "output.rc", line 145: 
+  Number of arguments (1) differs from number of parameters (0).
+Error, "output.rc", line 146: 
+  redeclared identifier 'a6'.
+Error, "output.rc", line 157: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "output.rc", line 164: 
+  undeclared identifier 's0'.
+Error, "output.rc", line 165: 
+  undeclared identifier 's0'.
+Error, "output.rc", line 168: 
+  Type of expression referenced by "output.rc" (int) is not a struct.
+Error, "output.rc", line 169: 
+  Type of expression referenced by "output.rc" (int) is not a struct.
+Error, "output.rc", line 172: 
+  Type of expression referenced by "output.rc" (int[5]) is not a struct.
+Error, "output.rc", line 172: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 173: 
+  Type of expression referenced by "output.rc" (int[5]) is not a struct.
+Error, "output.rc", line 175: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 178: 
+  Referenced field a2 not found in type CALL.
+Error, "output.rc", line 179: 
+  Referenced field a2 not found in type CALL.
+Error, "output.rc", line 180: 
+  Referenced field a2 not found in type CALL.
+Error, "output.rc", line 183: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 189: 
+  Value of type bool not assignable to variable of type int.
+Error, "output.rc", line 191: 
+  Number of arguments (1) differs from number of parameters (0).
+Error, "output.rc", line 194: 
+  Argument of type float not assignable to value parameter i, of type int.
+Error, "output.rc", line 195: 
+  Number of arguments (2) differs from number of parameters (1).
+Error, "output.rc", line 196: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 199: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 200: 
+  Value of type CALL not assignable to variable of type int.
+Error, "output.rc", line 202: 
+  Value of type int not assignable to variable of type CALL.
+Error, "output.rc", line 213: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 214: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 216: 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "output.rc", line 217: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 220: 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "output.rc", line 221: 
+  redeclared identifier 'b8'.
+Error, "output.rc", line 221: 
+  Number of arguments (2) differs from number of parameters (1).
+Error, "output.rc", line 228: 
+  Illegal call to overloaded function MYS_C.
+Error, "output.rc", line 230: 
+  Illegal call to overloaded function MYS_C.
+Error, "output.rc", line 231: 
+  Illegal call to overloaded function MYS_C.
+Compile: failure.

@@ -1,0 +1,117 @@
+Error, "output.rc", line 11: 
+  Return required in function, none found.
+Error, "output.rc", line 12: 
+  Duplicate declaration of overloaded function foo.
+Error, "output.rc", line 12: 
+  Return required in function, none found.
+Error, "output.rc", line 17: 
+  Duplicate declaration of overloaded function foo2.
+Error, "output.rc", line 18: 
+  Duplicate declaration of overloaded function foo2.
+Error, "output.rc", line 18: 
+  Return in function requires a result expression, none found.
+Error, "output.rc", line 19: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "output.rc", line 22: 
+  Duplicate declaration of overloaded function foo3.
+Error, "output.rc", line 30: 
+  Duplicate declaration of overloaded function bar.
+Error, "output.rc", line 37: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 38: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 40: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 42: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 43: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 50: 
+  Initialization value of constant named c8_1 not known at compile time.
+Error, "output.rc", line 51: 
+  Initialization value of constant named c8_1_2 not known at compile time.
+Error, "output.rc", line 52: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "output.rc", line 53: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "output.rc", line 54: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "output.rc", line 55: 
+  redeclared identifier 'c8_3'.
+Error, "output.rc", line 55: 
+  Initialization value of constant named c8_3 not known at compile time.
+Error, "output.rc", line 57: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 58: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 59: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 60: 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "output.rc", line 61: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 62: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 70: 
+  Initialization value of constant named c8_14 not known at compile time.
+Error, "output.rc", line 72: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 73: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 74: 
+  undeclared identifier 'c8_14'.
+Error, "output.rc", line 75: 
+  undeclared identifier 'c8_14'.
+Error, "output.rc", line 79: 
+  redeclared identifier 'c8_12'.
+Error, "output.rc", line 80: 
+  redeclared identifier 'c8_13'.
+Error, "output.rc", line 80: 
+  Initialization value of constant named c8_13 not known at compile time.
+Error, "output.rc", line 88: 
+  redeclared identifier 'ten1'.
+Error, "output.rc", line 90: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 91: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 92: 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "output.rc", line 93: 
+  Index expression type (float) in array declaration not equivalent to int.
+Error, "output.rc", line 94: 
+  Index expression value (-5) in array declaration must be > 0.
+Error, "output.rc", line 97: 
+  Index expression type (float) in array declaration not equivalent to int.
+Error, "output.rc", line 98: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 99: 
+  Index expression value (-10) in array declaration must be > 0.
+Error, "output.rc", line 119: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "output.rc", line 120: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "output.rc", line 121: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "output.rc", line 122: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "output.rc", line 124: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "output.rc", line 125: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "output.rc", line 126: 
+  Type of index expression in array reference (bool) not equivalent to int.
+Error, "output.rc", line 129: 
+  Index value of 5 is outside legal range [0,5).
+Error, "output.rc", line 130: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 132: 
+  Value of type float[5] not assignable to variable of type int.
+Error, "output.rc", line 133: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 135: 
+  Index value of 3 is outside legal range [0,3).
+Error, "output.rc", line 136: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 137: 
+  Index value of -5 is outside legal range [0,5).
+Compile: failure.

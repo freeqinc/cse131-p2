@@ -1,0 +1,3 @@
+Error, "phase2/check19/p133.rc", line 19: 
+  Initialization value of type S not assignable to constant/variable of type int.
+Compile: failure.

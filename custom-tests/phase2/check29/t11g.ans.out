@@ -1,0 +1,7 @@
+Error, "phase2/check29/t11g.rc", line 10: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "phase2/check29/t11g.rc", line 11: 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check29/t11g.rc", line 12: 
+  Type of expression referenced by array subscript (bool) is not of array or pointer type.
+Compile: failure.

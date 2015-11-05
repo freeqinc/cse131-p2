@@ -1,0 +1,5 @@
+Error, "phase2/check27/t05r.rc", line 10: 
+  Argument of type int not equivalent to reference parameter a3, of type float.
+Error, "phase2/check27/t05r.rc", line 11: 
+  Return required in function, none found.
+Compile: failure.

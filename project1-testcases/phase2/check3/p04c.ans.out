@@ -1,0 +1,5 @@
+Error, "phase2/check3/p04c.rc", line 8: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check3/p04c.rc", line 9: 
+  Value of type float not assignable to variable of type int.
+Compile: failure.

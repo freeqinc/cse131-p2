@@ -1,0 +1,17 @@
+Error, "output.rc", line 15: 
+  Operand to "output.rc" with constructor call is not of pointer to struct type, int* found.
+Error, "output.rc", line 16: 
+  Operand to "output.rc" with constructor call is not of pointer to struct type, int* found.
+Error, "output.rc", line 25: 
+  Initialization value of constant named z not known at compile time.
+Error, "output.rc", line 30: 
+  Non-addressable argument of type int to address-of operator.
+Error, "output.rc", line 32: 
+  Non-addressable argument of type int to address-of operator.
+Error, "output.rc", line 34: 
+  Non-addressable argument of type int to address-of operator.
+Error, "output.rc", line 36: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 37: 
+  Operand to ++ is not a modifiable L-value.
+Compile: failure.

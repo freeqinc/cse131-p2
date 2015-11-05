@@ -1,0 +1,15 @@
+Error, "output.rc", line 10: 
+  Invalid type cast. Type nullptr to type int* is not supported.
+Error, "output.rc", line 13: 
+  Invalid type cast. Type MY to type bool* is not supported.
+Error, "output.rc", line 55: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 63: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 64: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 65: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 66: 
+  Return required in function, none found.
+Compile: failure.

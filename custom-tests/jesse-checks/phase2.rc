@@ -1,0 +1,339 @@
+int intVar = 5;
+float floatVar = 5.5;
+bool boolVar = true;
+
+const int intConst = 10;
+const float floatConst = 99.9;
+const bool boolConst = false;
+
+function : void boolConst() {}
+function : int boolConst() {}
+function : bool boolConst() {}
+
+// check 9a business
+
+function : float foo(float &x) {}
+function : int foo(float x) {}
+
+function : float foo2 (int &x) { return 5.5; }
+function : float foo2 (bool x) { return 5.5; }
+function : float foo2 (float x) { return 5.5; }
+function : float foo2 (int x) { return 5.5; }
+function : int foo2 (bool &x) { return; }
+function : void foo2 () { return 5; }
+function : void foo3 (int a, bool b, float c) {}
+function : void foo3 (bool a, int b, float c) {}
+function : void foo3 (int &z, bool &s, float &asdf) {}
+
+// check 9b business
+
+function : float bar(float x) { return 5.5; }
+function : float bar(float x, float y, float z) { return 5.5; }
+function : float bar(float &x, float &y) { return 5.5; }
+function : void bar(bool &x) {}
+function : int bar(bool z) { return 5; }
+function : int bar(int x) { return x; } 
+
+
+// brandon's thing
+float ggez[5];
+float ggezz[6];
+int ggez2[5];
+function : int ggezez(float &a[5]) { return 4; }
+function : int ggezez(float &a[6]) { return 4; }
+function : int ggezez2(float &a[5]) { return 4; }
+function : int thebigez(float &a[true]) { return 4; }
+
+
+// struct business!
+/*
+structdef MYS {
+    int x;
+    int y;
+    int x; // check13a_Struct dup id x, error #1
+    int z;
+    int x; // check13a_Struct dup id x, error #2
+    MYS * next; // recursive field – no error – will be tested
+    function : void y() {} // check13a_Struct dup id y, error #3
+    function : void f( int &x ) { // No error with x (inner scope)
+        x = x + 1;
+    }
+    function : void foo() {}
+    function : void foo() {} // error9_Decl dup overload, error #4
+    function : void bar() {}
+    function : void bar(int x) {} // OK, since legal overload
+};
+*/
+
+
+function : void main()
+{
+    ggezez(ggez);       // okay, structurally equivalent
+    ggezez(ggez2);      // bad
+    ggezez2(ggez2);     // bad
+    ggezez2(ggezz);     // bad
+    ggezez(5);
+    ggezez(5, true, ggez);
+    ggezez2(5);
+    ggezez2(5, true, ggez);
+
+    // check 9b business
+
+    bar(1);
+    bar(true);
+    bar(5.5);
+    bar(5.5, 5.5);
+    bar(floatVar, floatVar);
+    bar(5.5, floatVar);
+    bar(false);
+    bar(boolVar);
+
+    /*  CHECK 8 ====================================== */
+    int nonValueInt;
+    float nonValueFloat;
+
+    const int c8_1 = nonValueInt + 5;           // value of constant not known at compile
+    const int c8_1_2 = floatVar;                // not known at compile
+    const int c8_1_3 = 5.5;                     // type not assignable
+    int c8_2 = nonValueFloat;                   // type not assignable
+    bool c8_3 = 5;                              // type not assignable
+    const bool c8_3 = nonValueFloat;            // both constant and bad type, not known should happen first
+
+    const int c8_4 = 10/0;                      // folding on div by 0
+    const int c8_5 = 10.5/0;                    // also folding
+    const float c8_6 = floatConst/0.0;          // folding
+    const bool c8_7 = boolVar/0.0;              // incompatible to operator
+    const int c8_8 = 5.5/0.0;                   // folding
+    int c8_9 = 5/0;                             // bad div
+
+    int c8_zz = nonValueInt + 5;
+
+    auto c8_10 = nonValueInt;                   // is int
+    auto c8_11 = nonValueInt * 1.0;             // is float
+    const auto c8_12 = true;                    // is bool
+    auto c8_13 = 5;                             // is int
+    const auto c8_14 = c8_13;                   // value not known at compile time
+
+    c8_10 = 5.5;                                // bad int <- float
+    c8_12 = 5;                                  // bad bool <- int;
+    c8_14 = 10.5;                               // bad, the const not really declared
+    c8_14 = 5;                                  // bad, the const not really declared
+    c8_11 = 5;                                  // ok
+    c8_11 = c8_11 * c8_10;                      // ok
+
+    const float c8_12 = floatConst;             // ok
+    const float c8_13 = floatVar;               // bad
+
+    /*  CHECK 9 ====================================== */
+
+    /*  CHECK 10 ===================================== */
+
+    // int ten1[1++];
+    int ten1[1];
+    int ten1[2];
+    int ten2[intConst];
+    int ten3[intVar];
+    int ten4[nonValueInt];
+    int ten5[true];
+    int ten6[floatVar];
+    int ten7[-5];
+
+    int ten8[1][2][3][4][5];
+    int ten9[1][5.5][3][true];
+    int ten10[1][intVar][intConst][-5];
+    bool ten11[5][5][5][-intConst][intVar];
+
+    ten1 = ten2;
+
+
+    /*  CHECK 11 ===================================== */
+
+
+    int elev1[5];
+    float elev2[5][3][5];
+    bool elev3[2][3][4][5][6];
+
+    elev1 = elev2;
+
+    int ind = 1;
+    int ind2 = 2;
+    int ind3 = 3;
+    int ind4 = 4;
+    int ind5 = 5;
+    float badInd = 1.1;
+    bool terribleInd = true;
+
+
+    ind2[1];
+    badInd[0];
+    floatConst[0];
+    ind2[true];
+    elev2[floatVar];
+    elev2[5.5];
+    elev2[true];
+    elev2[4][3];
+
+    int el1 = elev1[1];
+    int el2 = elev1[5];
+    int el3 = elev1[-5];
+    int el4 = elev1[0];
+    el4 = elev2[0][0];
+    el4 = elev2[0][0][0];
+    el4 = elev3;
+    el4 = elev2;
+    el4 = elev1;
+    el4 = elev1[4];
+    float el5 = elev2[4][2][4];
+    bool el6 = elev3[1][2][3][4][5];
+
+    elev2[4][3][true];
+    elev2[-5][true][true];
+    elev2[-5];
+    elev3[1][2][-10][true];
+    elev3[0][0][0][0][0][0];
+
+    const int negTest = -5;
+    const int c11a = 1;
+    const int c11b = -1;
+    const float c11c = 2.2;
+
+    elev1[+negTest];
+    elev1[negTest];
+
+    elev1[+5];
+    elev1[+4];
+    elev1[0] = 5;
+    elev1[5 + intConst];
+    elev1[0 + floatConst];
+    elev1[5 * c11b];
+    elev1[c11a / c11b];
+    elev1[c11c];
+    elev2[0][5 + 5 - 5 + 5 - 60];
+
+    elev1[elev1[0]];
+    elev1[elev2[0][0][0]];
+    elev1[elev3[false][-5]];
+    elev1[elev3[0]];
+
+    /*  CHECK 12 ===================================== */
+
+    int s12a;
+    int s12b[2];
+    float s12c[3];
+    float * s12d[4];
+    float s12e[3][4];
+    foreach (float x : s12a) {} // Error, 'a' is not an array type
+    foreach (bool x : s12b) {} // Error, int not assignable to bool
+    foreach (float x : s12b) {} // OK, int assignable to float
+    foreach (int x : s12b) {} // OK, int assignable to int
+    foreach (float &x : s12b) {} // Error, int not equivalent to float
+    foreach (float*&x : s12d) {} // OK, float* equivalent to float*
+    // foreach (float x : s12d) {} // Error, float* not assignable to float
+    foreach (float x : s12e) {} // Error, float[4] not assignable to float
+    foreach (float x : 5++) {}
+    foreach (bool z : s12e[0]) {}
+    foreach (float z : s12e[0]) {}
+    foreach (float z: s12e[2][3]) {}
+
+    int c12a[5];
+    float c12b[5][6][7];
+    bool c12c[6][5];
+
+    foreach (int x : c12a) {}
+    foreach (int x : c12a[4]) {}
+    foreach (int x : c12[-100]) {}
+    foreach (int x : c12b[0]) {}
+    foreach (float x : c12b[0]) {}
+    foreach (float x : c12b[0][0]) {}
+    foreach (float x : c12b[0][0][0]) {}
+    foreach (bool x : c12c) {}
+    foreach (bool x: c12c[4]) {}
+    foreach (float x: c12c[5][6][7][8]) {}
+
+    break;
+    continue;
+    foreach (int x : c12a) {
+        break;
+        continue;
+    }
+    break;
+    continue;
+
+    foreach (int x : c12a) {
+        break;
+        continue;
+        foreach (int x: c12a) {
+            break;
+            continue;
+        }
+        break;
+        continue;
+    }
+
+    break;
+    while (true) {
+        break;
+        while (true) {
+            break;
+            foreach (int x : c12a) {
+                break;
+            }
+            break;
+        }
+        break;
+    }
+    break;
+
+    while (true) {
+          if (true) { if (true) { if (true) { break; } } }
+    }
+
+
+    /*  CHECK 13 ===================================== */
+
+    /*  CHECK 14 ===================================== */
+
+
+
+    /*  CRAZY CASES =================================== */
+
+
+    int mult1[5][true];
+    int mult1[5];
+
+    int mult2 = 5++;
+    int mult2 = 5;
+
+    const int cMult1 = 5++;
+    const int cMult1 = 5;
+}
+
+function : void mult2() {
+    return 5;
+}
+
+function : void mult2() {
+
+}
+
+// packet example check 8c
+int c8_a;
+int c8_b;
+const int c8_c = 2 + 3 * 0 - 1;
+const int c8_d = c8_c * 7;
+const float c8_e = (c8_d + c8_c) * c8_c;
+
+function : int check8() {
+    c8_a = (c8_b + c8_c + c8_d);
+    return (c8_a % c8_c);
+}
+
+
+
+// recursion
+
+function : int recurve(int x) {
+    return recurve(5) + 5;
+
+
+}

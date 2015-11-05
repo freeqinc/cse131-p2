@@ -1,0 +1,17 @@
+Error, "phase2/check11/p14k.rc", line 17: 
+  Number of arguments (2) differs from number of parameters (0).
+Error, "phase2/check11/p14k.rc", line 24: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check11/p14k.rc", line 25: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check11/p14k.rc", line 27: 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "phase2/check11/p14k.rc", line 28: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check11/p14k.rc", line 32: 
+  Illegal call to overloaded function MYS_C.
+Error, "phase2/check11/p14k.rc", line 34: 
+  Illegal call to overloaded function MYS_C.
+Error, "phase2/check11/p14k.rc", line 35: 
+  Illegal call to overloaded function MYS_C.
+Compile: failure.

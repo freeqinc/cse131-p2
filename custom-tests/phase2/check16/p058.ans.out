@@ -1,0 +1,5 @@
+Error, "phase2/check16/p058.rc", line 5: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check16/p058.rc", line 6: 
+  Value of type void not assignable to variable of type int.
+Compile: failure.

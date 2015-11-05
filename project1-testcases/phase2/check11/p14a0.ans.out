@@ -1,0 +1,13 @@
+Error, "phase2/check11/p14a0.rc", line 14: 
+  Referenced field missing_field not found in type TWO_INT_FIELDS.
+Error, "phase2/check11/p14a0.rc", line 17: 
+  Referenced field missing_field_2 not found in type TWO_INT_FIELDS.
+Error, "phase2/check11/p14a0.rc", line 20: 
+  Referenced field missing_function not found in type ONE_FUNCTION.
+Error, "phase2/check11/p14a0.rc", line 37: 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Error, "phase2/check11/p14a0.rc", line 41: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "phase2/check11/p14a0.rc", line 45: 
+  Initialization value of type float* not assignable to constant/variable of type float.
+Compile: failure.

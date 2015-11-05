@@ -1,0 +1,5 @@
+Error, "phase2/check4/p06b.rc", line 3: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "phase2/check4/p06b.rc", line 8: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Compile: failure.

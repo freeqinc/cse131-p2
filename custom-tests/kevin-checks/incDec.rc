@@ -1,0 +1,48 @@
+int i = 1;
+float f = 1.0;
+bool b = false;
+
+function : void foo(){
+	i++;
+	i--;
+	--i;
+	++i;
+
+	++f;
+	--f;
+	f++;
+	f--;
+	
+	b++;
+	b--;
+	--b;
+	++b;
+
+	int x;
+	float y;
+
+	x = i++;
+	
+	x = i++;
+	x = i--;
+	x = --i;
+	x = ++i;
+
+	y = i++;
+	y = i--;
+	y = --i;
+	y = ++i;
+
+	x = ++f;
+	x = --f;
+	x = f++;
+	x = f--;
+
+	5++;
+	5--;
+	--5;
+	++5;
+	
+	true++;
+	i++++;
+}

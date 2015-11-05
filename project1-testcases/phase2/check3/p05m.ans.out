@@ -1,0 +1,3 @@
+Error, "phase2/check3/p05m.rc", line 8: 
+  Argument of type int not equivalent to reference parameter a, of type float.
+Compile: failure.

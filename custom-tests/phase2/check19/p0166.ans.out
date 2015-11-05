@@ -1,0 +1,4 @@
+Error, "phase2/check19/p0166.rc", line 4: 
+  Incompatible types to operator: float == bool;
+  both must be numeric, or both equivalent to bool.
+Compile: failure.

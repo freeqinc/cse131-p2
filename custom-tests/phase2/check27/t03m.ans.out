@@ -1,0 +1,3 @@
+Error, "phase2/check27/t03m.rc", line 5: 
+  Value of type float not assignable to variable of type bool.
+Compile: failure.

@@ -1,0 +1,3 @@
+Error, "phase2/check21/p0172.rc", line 4: 
+  Incompatible type bool to binary operator >, numeric expected.
+Compile: failure.

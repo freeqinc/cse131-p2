@@ -1,0 +1,5 @@
+Error, "phase2/check29/t08f.rc", line 3: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "phase2/check29/t08f.rc", line 4: 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Compile: failure.

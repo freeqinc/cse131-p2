@@ -1,0 +1,3 @@
+Error, "phase2/check17/p094.rc", line 12: 
+  Illegal call to overloaded function foo.
+Compile: failure.

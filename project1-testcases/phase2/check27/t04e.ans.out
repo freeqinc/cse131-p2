@@ -1,0 +1,7 @@
+Error, "phase2/check27/t04e.rc", line 6: 
+  bool required for conditional test, float found.
+Error, "phase2/check27/t04e.rc", line 10: 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Error, "phase2/check27/t04e.rc", line 14: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Compile: failure.

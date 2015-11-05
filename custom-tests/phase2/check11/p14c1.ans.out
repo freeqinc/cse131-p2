@@ -1,0 +1,5 @@
+Error, "phase2/check11/p14c1.rc", line 7: 
+  undeclared identifier 'x'.
+Error, "phase2/check11/p14c1.rc", line 11: 
+  undeclared identifier 'y'.
+Compile: failure.

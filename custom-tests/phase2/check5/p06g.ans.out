@@ -1,0 +1,13 @@
+Error, "phase2/check5/p06g.rc", line 5: 
+  Return required in function, none found.
+Error, "phase2/check5/p06g.rc", line 15: 
+  Return in function requires a result expression, none found.
+Error, "phase2/check5/p06g.rc", line 21: 
+  Return required in function, none found.
+Error, "phase2/check5/p06g.rc", line 35: 
+  Return required in function, none found.
+Error, "phase2/check5/p06g.rc", line 54: 
+  Return required in function, none found.
+Error, "phase2/check5/p06g.rc", line 59: 
+  Return required in function, none found.
+Compile: failure.

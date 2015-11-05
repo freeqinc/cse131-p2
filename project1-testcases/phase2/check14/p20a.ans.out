@@ -1,0 +1,3 @@
+Error, "phase2/check14/p20a.rc", line 10: 
+  Value of type bool not assignable to variable of type int.
+Compile: failure.

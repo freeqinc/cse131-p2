@@ -1,0 +1,5 @@
+Error, "phase2/check26/t01k.rc", line 7: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "phase2/check26/t01k.rc", line 8: 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Compile: failure.

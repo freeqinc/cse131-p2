@@ -1,0 +1,3 @@
+Error, "phase2/check28/t06l.rc", line 6: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Compile: failure.

@@ -1,0 +1,9 @@
+Error, "phase2/check15/p025.rc", line 3: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check15/p025.rc", line 4: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check15/p025.rc", line 5: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check15/p025.rc", line 6: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

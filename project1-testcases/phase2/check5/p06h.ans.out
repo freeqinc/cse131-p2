@@ -1,0 +1,3 @@
+Error, "phase2/check5/p06h.rc", line 3: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Compile: failure.

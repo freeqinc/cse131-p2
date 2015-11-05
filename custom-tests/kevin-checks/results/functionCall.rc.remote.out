@@ -1,0 +1,47 @@
+Error, "output.rc", line 20: 
+  Argument passed to reference parameter i (type int) is not a modifiable L-value.
+Error, "output.rc", line 21: 
+  Argument of type float not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 22: 
+  Argument of type float not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 23: 
+  Argument passed to reference parameter i (type int) is not a modifiable L-value.
+Error, "output.rc", line 24: 
+  Argument of type bool not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 25: 
+  Argument of type bool not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 26: 
+  Argument of type float not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 27: 
+  Argument passed to reference parameter i (type int) is not a modifiable L-value.
+Error, "output.rc", line 28: 
+  Argument of type float not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 29: 
+  Argument of type float* not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 30: 
+  Argument of type int* not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 31: 
+  Argument of type int** not equivalent to reference parameter i, of type int.
+Error, "output.rc", line 36: 
+  Argument of type float not assignable to value parameter i, of type int.
+Error, "output.rc", line 37: 
+  Argument of type float not assignable to value parameter i, of type int.
+Error, "output.rc", line 39: 
+  Argument of type bool not assignable to value parameter i, of type int.
+Error, "output.rc", line 40: 
+  Argument of type bool not assignable to value parameter i, of type int.
+Error, "output.rc", line 41: 
+  Argument of type float not assignable to value parameter i, of type int.
+Error, "output.rc", line 43: 
+  Argument of type float not assignable to value parameter i, of type int.
+Error, "output.rc", line 44: 
+  Argument of type float* not assignable to value parameter i, of type int.
+Error, "output.rc", line 45: 
+  Argument of type int* not assignable to value parameter i, of type int.
+Error, "output.rc", line 46: 
+  Argument of type int** not assignable to value parameter i, of type int.
+Error, "output.rc", line 49: 
+  Number of arguments (2) differs from number of parameters (1).
+Error, "output.rc", line 50: 
+  Number of arguments (2) differs from number of parameters (1).
+Compile: failure.

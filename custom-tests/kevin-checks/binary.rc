@@ -1,0 +1,52 @@
+int x = 0;
+int y = 1;
+float z = 0;
+float a = 0;
+bool b = true;
+bool c = false;
+
+function : void foo(){
+
+	int eZ = x + y;
+	float yOLO = x + z;
+	float nobo = a + z;
+	
+	float dingo = b + c;
+	float tazdingo = x + c;
+	float bingo = b + z;
+
+	int chicken = x % y;
+	int chicken2 = x % 0;
+	int licken = x % a;
+	int bicken = a % x;
+	int ricken = x % b;
+	int owbo = b % x;
+	bool dubgdIBN  = x % y;
+	
+	bool un = x < y;
+	bool uno = x <= y;
+	bool dada = x > y;
+	bool chono = x >= y;
+	bool bono = z > y;
+	bool dono = z >= y;
+	bool chonog = z <= x;
+	bool dingdon = x <= z;
+
+	bool rigrag = b >= c;
+	bool digdag = b > c;
+	bool jigjag = b <= c;
+	bool nignag = b < x;
+	bool bingbong = a > z;
+
+	bool rgigo = !(b || c) && (a<y || b);
+	bool ching = a || z;
+	bool dingdon2 = c && x;
+
+	int one1 = y&x;
+	int one2 = a&z;
+	int one3 = x^y;
+	int one4 = a^y;
+	int one5 = x|y;
+	int bingbog = b|c; 
+	
+}

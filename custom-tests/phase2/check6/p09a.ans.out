@@ -1,0 +1,7 @@
+Error, "phase2/check6/p09a.rc", line 1: 
+  Return required in function, none found.
+Error, "phase2/check6/p09a.rc", line 2: 
+  Return required in function, none found.
+Error, "phase2/check6/p09a.rc", line 4: 
+  Illegal call to overloaded function foo.
+Compile: failure.

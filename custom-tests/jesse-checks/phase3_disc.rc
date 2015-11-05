@@ -1,0 +1,20 @@
+
+structdef MYS {
+    float * f;
+};
+function : int * & foo( int * x ) { // usage - function that takes pointer parameter and returns pointer by reference
+    return x;
+}
+
+function : int main() {
+    int i = 0;
+    int * iptr = &i; // declaration - can initialize with address of object
+    int ********* x = nullptr; // declaration - pointer to pointer to pointer to pointer to … int
+    int * y = ********x; // usage and declaration - How will you unravel all the dereferences like this?
+    int ** z [5]; // declaration - array of int pointers
+    MYS * ptr; // declaration - just a pointer, nothing wrong semantically
+    float f = *(ptr->f) + *y; // usage - notice difference between -> and *
+    float ** fptr;
+    if( (*fptr != nullptr) && ((*ptr).f == *fptr) ){} // usage - support binary operations with pointers
+    return y[-5]; // usage - array dereference operator on pointer
+}

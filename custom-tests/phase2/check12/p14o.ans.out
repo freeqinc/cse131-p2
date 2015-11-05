@@ -1,0 +1,13 @@
+Error, "phase2/check12/p14o.rc", line 23: 
+  Illegal call to overloaded function foo.
+Error, "phase2/check12/p14o.rc", line 25: 
+  Referenced field y not found in type MYS_A.
+Error, "phase2/check12/p14o.rc", line 27: 
+  Referenced field i not found in type MYS_A.
+Error, "phase2/check12/p14o.rc", line 31: 
+  Referenced field boo not found in type MYS_B.
+Error, "phase2/check12/p14o.rc", line 35: 
+  Referenced field t not found in type MYS_B.
+Error, "phase2/check12/p14o.rc", line 36: 
+  Referenced field f not found in type MYS_B.
+Compile: failure.

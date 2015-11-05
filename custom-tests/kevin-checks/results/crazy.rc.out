@@ -1,0 +1,7 @@
+Error, "output.rc", line 11: 
+  Return required in function, none found.
+Error, "output.rc", line 12: 
+  Return required in function, none found.
+Error, "output.rc", line 20: 
+  Value of type float not assignable to variable of type int.
+Compile: failure.

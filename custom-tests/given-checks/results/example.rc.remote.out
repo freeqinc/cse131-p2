@@ -1,0 +1,19 @@
+Error, "output.rc", line 14: 
+  Return required in function, none found.
+Error, "output.rc", line 15: 
+  Return required in function, none found.
+Error, "output.rc", line 25: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 30: 
+  Argument of type REC2 not equivalent to reference parameter a, of type REC1.
+Error, "output.rc", line 35: 
+  Argument of type int[5] not equivalent to reference parameter a, of type float[5].
+Error, "output.rc", line 38: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 42: 
+  Value of type REC2 not assignable to variable of type REC1.
+Error, "output.rc", line 47: 
+  Value of type int* not assignable to variable of type float*.
+Error, "output.rc", line 49: 
+  Value of type REC2* not assignable to variable of type REC1*.
+Compile: failure.

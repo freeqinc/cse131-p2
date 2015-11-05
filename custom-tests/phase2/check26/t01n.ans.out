@@ -1,0 +1,11 @@
+Error, "phase2/check26/t01n.rc", line 8: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase2/check26/t01n.rc", line 9: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase2/check26/t01n.rc", line 10: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase2/check26/t01n.rc", line 11: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase2/check26/t01n.rc", line 14: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Compile: failure.

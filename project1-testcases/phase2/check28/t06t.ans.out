@@ -1,0 +1,5 @@
+Error, "phase2/check28/t06t.rc", line 7: 
+  Type of return expression (int) is not equivalent to the function's return type (bool).
+Error, "phase2/check28/t06t.rc", line 8: 
+  Type of return expression (float) is not equivalent to the function's return type (bool).
+Compile: failure.

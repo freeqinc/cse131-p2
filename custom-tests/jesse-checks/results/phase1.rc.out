@@ -1,0 +1,195 @@
+Error, "output.rc", line 22: 
+  Return in function requires a result expression, none found.
+Error, "output.rc", line 23: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 24: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "output.rc", line 25: 
+  Type of return expression (float) is not equivalent to the function's return type (int).
+Error, "output.rc", line 26: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "output.rc", line 35: 
+  Return required in function, none found.
+Error, "output.rc", line 39: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "output.rc", line 40: 
+  Return required in function, none found.
+Error, "output.rc", line 44: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "output.rc", line 46: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "output.rc", line 49: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "output.rc", line 60: 
+  Identifier xTest is undeclared in the global scope.
+Error, "output.rc", line 72: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "output.rc", line 73: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "output.rc", line 77: 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "output.rc", line 81: 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "output.rc", line 85: 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "output.rc", line 88: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "output.rc", line 89: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "output.rc", line 90: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "output.rc", line 93: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "output.rc", line 94: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "output.rc", line 97: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "output.rc", line 100: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "output.rc", line 104: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "output.rc", line 108: 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "output.rc", line 112: 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "output.rc", line 114: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "output.rc", line 115: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "output.rc", line 118: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "output.rc", line 119: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "output.rc", line 122: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "output.rc", line 125: 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "output.rc", line 126: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "output.rc", line 129: 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "output.rc", line 130: 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "output.rc", line 133: 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "output.rc", line 134: 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "output.rc", line 137: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 140: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 141: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 143: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 143: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 147: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 150: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 151: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 158: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 159: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 160: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 162: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 163: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 166: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 167: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 168: 
+  Value of type int not assignable to variable of type bool.
+Error, "output.rc", line 170: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 171: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 175: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 180: 
+  bool required for conditional test, int found.
+Error, "output.rc", line 181: 
+  bool required for conditional test, float found.
+Error, "output.rc", line 184: 
+  bool required for conditional test, int found.
+Error, "output.rc", line 187: 
+  bool required for conditional test, int found.
+Error, "output.rc", line 188: 
+  bool required for conditional test, float found.
+Error, "output.rc", line 191: 
+  bool required for conditional test, int found.
+Error, "output.rc", line 193: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 194: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 198: 
+  Number of arguments (2) differs from number of parameters (3).
+Error, "output.rc", line 200: 
+  Argument of type bool not assignable to value parameter c, of type float.
+Error, "output.rc", line 201: 
+  Argument of type float not assignable to value parameter a, of type int.
+Error, "output.rc", line 201: 
+  Argument of type float not assignable to value parameter b, of type int.
+Error, "output.rc", line 201: 
+  Argument of type bool not assignable to value parameter c, of type float.
+Error, "output.rc", line 202: 
+  Number of arguments (2) differs from number of parameters (3).
+Error, "output.rc", line 204: 
+  Argument passed to reference parameter a (type float) is not a modifiable L-value.
+Error, "output.rc", line 204: 
+  Argument of type float not assignable to value parameter b, of type int.
+Error, "output.rc", line 205: 
+  Argument of type int not equivalent to reference parameter a, of type float.
+Error, "output.rc", line 205: 
+  Argument of type float not assignable to value parameter b, of type int.
+Error, "output.rc", line 206: 
+  Argument passed to reference parameter a (type float) is not a modifiable L-value.
+Error, "output.rc", line 206: 
+  Argument of type float not assignable to value parameter b, of type int.
+Error, "output.rc", line 207: 
+  Argument of type float not assignable to value parameter b, of type int.
+Error, "output.rc", line 221: 
+  Exit expression (type float) is not assignable to int.
+Error, "output.rc", line 222: 
+  Exit expression (type float) is not assignable to int.
+Error, "output.rc", line 223: 
+  Exit expression (type float) is not assignable to int.
+Error, "output.rc", line 223: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 225: 
+  Exit expression (type float) is not assignable to int.
+Error, "output.rc", line 227: 
+  Exit expression (type bool) is not assignable to int.
+Error, "output.rc", line 232: 
+  Exit expression (type float) is not assignable to int.
+Error, "output.rc", line 232: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 233: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 233: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 234: 
+  Argument passed to reference parameter a (type float) is not a modifiable L-value.
+Error, "output.rc", line 234: 
+  Argument passed to reference parameter z (type bool) is not a modifiable L-value.
+Error, "output.rc", line 234: 
+  Argument of type float not assignable to value parameter g, of type int.
+Error, "output.rc", line 236: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "output.rc", line 237: 
+  redeclared identifier 'mult1'.
+Error, "output.rc", line 241: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "output.rc", line 242: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 245: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Compile: failure.

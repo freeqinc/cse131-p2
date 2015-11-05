@@ -1,0 +1,5 @@
+Error, "phase2/check25/p2010.rc", line 7: 
+  Index value of 23 is outside legal range [0,10).
+Error, "phase2/check25/p2010.rc", line 8: 
+  Index value of 10 is outside legal range [0,10).
+Compile: failure.

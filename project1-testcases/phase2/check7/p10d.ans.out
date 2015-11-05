@@ -1,0 +1,3 @@
+Error, "phase2/check7/p10d.rc", line 5: 
+  Value of index expression not known at compile time.
+Compile: failure.

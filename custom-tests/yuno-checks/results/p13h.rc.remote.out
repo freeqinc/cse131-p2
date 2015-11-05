@@ -1,0 +1,9 @@
+Error, "output.rc", line 9: 
+  Field x declared second time in struct.
+Error, "output.rc", line 11: 
+  Field x declared second time in struct.
+Error, "output.rc", line 12: 
+  Field y declared second time in struct.
+Error, "output.rc", line 19: 
+  Duplicate declaration of overloaded function foo.
+Compile: failure.

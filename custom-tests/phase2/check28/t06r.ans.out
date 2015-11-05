@@ -1,0 +1,127 @@
+Error, "phase2/check28/t06r.rc", line 11: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 12: 
+  Type of return expression (bool), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 14: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 15: 
+  Type of return expression (bool), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 17: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 18: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 19: 
+  Type of return expression (bool), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 21: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 22: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 23: 
+  Type of return expression (bool), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 25: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 26: 
+  Type of return expression (bool), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 26: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 26: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 28: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 29: 
+  Type of return expression (bool), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t06r.rc", line 30: 
+  Return in function requires a result expression, none found.
+Error, "phase2/check28/t06r.rc", line 42: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "phase2/check28/t06r.rc", line 45: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "phase2/check28/t06r.rc", line 49: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "phase2/check28/t06r.rc", line 53: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "phase2/check28/t06r.rc", line 56: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "phase2/check28/t06r.rc", line 56: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 56: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 59: 
+  Type of return expression (bool), not assignment compatible with function's return type (float).
+Error, "phase2/check28/t06r.rc", line 60: 
+  Return in function requires a result expression, none found.
+Error, "phase2/check28/t06r.rc", line 71: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 72: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 73: 
+  Type of return expression (bool), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 74: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 75: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 76: 
+  Type of return expression (bool), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 77: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 78: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 79: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 80: 
+  Type of return expression (bool), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 81: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 82: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 83: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 84: 
+  Type of return expression (bool), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 85: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 86: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 87: 
+  Type of return expression (bool), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 87: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 87: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 89: 
+  Type of return expression (float), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 90: 
+  Type of return expression (bool), not assignment compatible with function's return type (void).
+Error, "phase2/check28/t06r.rc", line 102: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 103: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 105: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 106: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 108: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 109: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 110: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 112: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 113: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 114: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 116: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 117: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 118: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 118: 
+  undeclared identifier 'cx'.
+Error, "phase2/check28/t06r.rc", line 120: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06r.rc", line 122: 
+  Return in function requires a result expression, none found.
+Compile: failure.

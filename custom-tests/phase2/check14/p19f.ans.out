@@ -1,0 +1,13 @@
+Error, "phase2/check14/p19f.rc", line 16: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19f.rc", line 17: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19f.rc", line 18: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19f.rc", line 19: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19f.rc", line 20: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19f.rc", line 24: 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

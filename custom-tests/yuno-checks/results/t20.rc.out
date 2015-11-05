@@ -1,0 +1,5 @@
+Error, "output.rc", line 6: 
+  Non-addressable argument of type bool to address-of operator.
+Error, "output.rc", line 8: 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Compile: failure.

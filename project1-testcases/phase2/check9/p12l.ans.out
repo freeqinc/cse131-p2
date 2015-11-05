@@ -1,0 +1,11 @@
+Error, "phase2/check9/p12l.rc", line 8: 
+  Type of expression referenced in foreach is not of array type.
+Error, "phase2/check9/p12l.rc", line 9: 
+  Foreach array element of type int not assignable to value iteration variable x, of type bool.
+Error, "phase2/check9/p12l.rc", line 11: 
+  Foreach array element of type int not equivalent to reference iteration variable x, of type float.
+Error, "phase2/check9/p12l.rc", line 13: 
+  Foreach array element of type float* not assignable to value iteration variable x, of type float.
+Error, "phase2/check9/p12l.rc", line 14: 
+  Foreach array element of type float[4] not assignable to value iteration variable x, of type float.
+Compile: failure.

@@ -1,0 +1,3 @@
+Error, "phase2/check18/p117.rc", line 8: 
+  Argument of type int[12] not assignable to value parameter intPtr, of type int[20].
+Compile: failure.

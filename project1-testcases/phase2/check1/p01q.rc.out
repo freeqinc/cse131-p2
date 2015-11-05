@@ -1,0 +1,4 @@
+Error, "phase2/check1/p01q.rc": 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Compile: failure.

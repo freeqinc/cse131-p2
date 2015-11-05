@@ -1,0 +1,5 @@
+Error, "phase2/check28/t06i.rc", line 7: 
+  Type of return expression (int), not assignment compatible with function's return type (bool).
+Error, "phase2/check28/t06i.rc", line 8: 
+  Type of return expression (float), not assignment compatible with function's return type (bool).
+Compile: failure.

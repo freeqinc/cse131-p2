@@ -1,0 +1,200 @@
+structdef MYS {
+    int x;
+    int y;
+    int z;
+    float * f;
+    int arr[5];
+    MYS * next; // recursive field – no error – will be tested
+    MYS() { // Ctor
+         this.x = 0;
+         this.y = 0;
+    }
+    function : void foo( int &x ) { // No error with x (inner scope)
+        x = x + 1;
+    }
+    function : void foo() {}
+    function : void bar() {}
+    function : void bar(int x) {} // OK, since legal overload
+};
+
+structdef MYS2 {
+    int x;
+    MYS2() {}
+    MYS2(int x) {}
+    function : void foo() {
+        MYS2 * myStruct;
+        new myStruct : (5);
+        delete myStruct;
+    }
+    function : void bar() {
+        MYS2 myStruct;
+    }
+};
+
+function : MYS structFun() {
+    MYS ret;
+    return ret;
+}
+
+function : void check18() {
+    int x;
+    int y;
+    int *z;
+    const int w = 77;
+    z = &x; // &x in this example is simply an R-val
+    &x = nullptr; // Error, since not a modifiable L-val
+    y = *&x; // *&x is essentially just x, so OK.
+    *&x = y; // The * reverses the &x, making it a modifiable L-val
+    *&w = y; // The * reverses the &w, making it a modifiable L-val,
+    // even though w was originally a constant
+    &*z = z; // Error, result of address-of is not a modifiable L-val
+
+    &5;
+    &x++;
+    &5++;
+}
+
+function : int main() {
+    int * x;
+    int ** x2;
+    x[99] = x[-40] + x[*x]; // No errors
+    x2[0] = 5;
+    x2[0][0] = 5;
+    x[0][0];
+    x2[0][0][0];
+
+
+
+    /*  CHECK 15 ===================================== */
+
+    int i = 0;
+    int intArr[5];
+    int *intPtr;
+    int ** intPtr2;
+    auto intPtr3 = intPtr2;
+    auto intPtr4 = *intPtr2;
+    int * iptr = &i; // declaration - can initialize with address of object
+    int ****** iptr2 = iptr;
+
+
+    intPtr2 = &i;
+    intPtr2 = &intPtr;
+    intPtr2 = nullptr;
+    intPtr = nullptr;
+    intPtr2 = intPtr;
+    intPtr = intPtr2;
+    nullptr = intPtr;
+
+    intPtr3 = intPtr2;
+    intPtr3 = intPtr;
+    *intPtr3 = intPtr;
+    **intPtr3 = 5;
+    intPtr4 = 5;
+    *intPtr4 = 5;
+    intPtr4 = intPtr2;
+
+    MYS * structPtr;
+    MYS structVar;
+
+    *intArr = 5;
+    *i = 5;
+    *intPtr = 5;
+    *intPtr = 5.5;
+
+    structPtr->x;
+    structPtr->x = 5;
+    structPtr->x = 5.5;
+    structPtr->arr[3] = 3;
+    structPtr->arr[3] = true;
+    structVar->x;
+
+    *nullptr;
+    nullptr->a;
+    nullptr[0];
+    nullptr.a;
+
+
+    /*  CHECK 16 ===================================== */
+
+    const int intConst = 5;
+    int intVar = 5;
+
+    new intConst;
+    delete intConst;
+    new intVar;
+    delete intVar;
+
+    MYS2 * x16;
+    new x16; // okay - calls default constructor
+    new x16 : (69); // okay - calls 1-arg constructor
+    new x69;
+    new x69 : (69);
+    new intPtr : (69);
+    new intPtr;
+    new intPtr2 : (69);
+    new intPtr2;
+
+    /*  CHECK 17 ===================================== */
+
+
+    bool check17;
+
+    check17 = intPtr == intPtr2;
+    check17 = intPtr == *intPtr2;
+    check17 = intPtr == nullptr;
+    check17 = intPtr2 == nullptr;
+
+    check17 = intPtr != intPtr2;
+    check17 = intPtr != *intPtr2;
+    check17 = intPtr != nullptr;
+    check17 = intPtr2 != nullptr;
+
+    nullptr++;
+    intPtr2 = intPtr2++;
+    intPtr = ++intPtr;
+
+    nullptr--;
+    intPtr2 = intPtr2--;
+    intPtr = --intPtr;
+    intPtr = intPtr2++;
+    ++intPtr2 = 5;
+
+
+    /*  CHECK 18 ===================================== */
+
+
+    /*  CHECK 19 ===================================== */
+
+
+
+    /*  CHECK 20 ===================================== */
+
+    return 0;
+}
+
+
+int x20;
+float y20;
+float* z20;
+int* intPtr20;
+function : void check20() {
+    x20 = (int) y20;
+    x20 = (int) (x20 + 4.9);
+    y20 = (float) (int) (65.3);
+    y20 = 5.5;
+    intPtr20 = (int*) z20;
+
+    MYS2 myStruct;
+    myStruct = (MYS2 *) x20;
+
+    (int) nullptr;
+    (int) check18();
+}
+
+
+const bool x20_2 = true;
+int y20_2[10];
+int z20_2;
+function : void check20_2() {
+    z20_2 = y20_2[(int) x20_2]; // the index into the array will be 1
+}

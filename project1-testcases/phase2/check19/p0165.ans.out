@@ -1,0 +1,10 @@
+Error, "phase2/check19/p0165.rc", line 3: 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check19/p0165.rc", line 7: 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check19/p0165.rc", line 11: 
+  Incompatible types to operator: float != bool;
+  both must be numeric, or both equivalent to bool.
+Compile: failure.

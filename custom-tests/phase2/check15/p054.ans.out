@@ -1,0 +1,9 @@
+Error, "phase2/check15/p054.rc", line 12: 
+  Type of return expression (int*) is not equivalent to the function's return type (int).
+Error, "phase2/check15/p054.rc", line 17: 
+  Argument passed to reference parameter x (type int) is not a modifiable L-value.
+Error, "phase2/check15/p054.rc", line 18: 
+  Argument of type bool not equivalent to reference parameter x, of type int.
+Error, "phase2/check15/p054.rc", line 20: 
+  Operand to ++ is not a modifiable L-value.
+Compile: failure.

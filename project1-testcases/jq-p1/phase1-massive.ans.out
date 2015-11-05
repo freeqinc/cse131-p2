@@ -1,0 +1,117 @@
+Error, "jq-p1/phase1-massive.rc", line 22: 
+  Identifier xTest is undeclared in the global scope.
+Error, "jq-p1/phase1-massive.rc", line 34: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 35: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 39: 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 43: 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 47: 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 50: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 51: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 52: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 55: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 56: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 59: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 62: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 66: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "jq-p1/phase1-massive.rc", line 70: 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "jq-p1/phase1-massive.rc", line 74: 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "jq-p1/phase1-massive.rc", line 76: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "jq-p1/phase1-massive.rc", line 77: 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "jq-p1/phase1-massive.rc", line 80: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "jq-p1/phase1-massive.rc", line 81: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "jq-p1/phase1-massive.rc", line 84: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "jq-p1/phase1-massive.rc", line 87: 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 88: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 91: 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 92: 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 95: 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 96: 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "jq-p1/phase1-massive.rc", line 99: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "jq-p1/phase1-massive.rc", line 102: 
+  Operand to ++ is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 103: 
+  Operand to ++ is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 105: 
+  Operand to ++ is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 105: 
+  Operand to -- is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 109: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "jq-p1/phase1-massive.rc", line 112: 
+  Operand to -- is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 113: 
+  Operand to -- is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 120: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "jq-p1/phase1-massive.rc", line 121: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "jq-p1/phase1-massive.rc", line 122: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "jq-p1/phase1-massive.rc", line 124: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "jq-p1/phase1-massive.rc", line 125: 
+  Operand to ++ is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 128: 
+  Value of type float not assignable to variable of type int.
+Error, "jq-p1/phase1-massive.rc", line 129: 
+  Value of type float not assignable to variable of type int.
+Error, "jq-p1/phase1-massive.rc", line 130: 
+  Value of type int not assignable to variable of type bool.
+Error, "jq-p1/phase1-massive.rc", line 132: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "jq-p1/phase1-massive.rc", line 133: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "jq-p1/phase1-massive.rc", line 137: 
+  Value of type float not assignable to variable of type int.
+Error, "jq-p1/phase1-massive.rc", line 142: 
+  bool required for conditional test, int found.
+Error, "jq-p1/phase1-massive.rc", line 143: 
+  bool required for conditional test, float found.
+Error, "jq-p1/phase1-massive.rc", line 146: 
+  bool required for conditional test, int found.
+Error, "jq-p1/phase1-massive.rc", line 149: 
+  bool required for conditional test, int found.
+Error, "jq-p1/phase1-massive.rc", line 150: 
+  bool required for conditional test, float found.
+Error, "jq-p1/phase1-massive.rc", line 153: 
+  bool required for conditional test, int found.
+Error, "jq-p1/phase1-massive.rc", line 155: 
+  Operand to ++ is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 156: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "jq-p1/phase1-massive.rc", line 166: 
+  Operand to -- is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 167: 
+  Operand to ++ is not a modifiable L-value.
+Error, "jq-p1/phase1-massive.rc", line 167: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Compile: failure.

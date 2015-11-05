@@ -1,0 +1,11 @@
+Error, "phase2/check15/p021.rc", line 5: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "phase2/check15/p021.rc", line 6: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "phase2/check15/p021.rc", line 7: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "phase2/check15/p021.rc", line 8: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "phase2/check15/p021.rc", line 9: 
+  Operand to ++ is not a modifiable L-value.
+Compile: failure.

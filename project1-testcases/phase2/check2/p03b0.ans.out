@@ -1,0 +1,11 @@
+Error, "phase2/check2/p03b0.rc", line 9: 
+  Value of type float not assignable to variable of type int.
+Error, "phase2/check2/p03b0.rc", line 12: 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check2/p03b0.rc", line 15: 
+  Value of type bool not assignable to variable of type float.
+Error, "phase2/check2/p03b0.rc", line 18: 
+  Value of type int not assignable to variable of type bool.
+Error, "phase2/check2/p03b0.rc", line 21: 
+  Value of type float not assignable to variable of type bool.
+Compile: failure.

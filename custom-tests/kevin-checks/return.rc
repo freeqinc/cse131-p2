@@ -1,0 +1,51 @@
+function : int foo()
+{
+	return 1;
+}
+
+function : int bar()
+{
+	if(true)
+	{
+		return 1;
+	}
+}
+
+function : int dead()
+{
+
+	while(true)
+	{
+		return 1;
+	}
+
+}
+
+function : int beef()
+{
+	return 1.0;
+}
+
+function : int beeforoni()
+{
+	float c[3];
+
+	foreach( float x : c )
+	{
+		return 1;
+	}
+}
+
+function : void esc()
+{
+	float f = 1.0;
+
+	exit(1);
+	exit(1.0);
+	exit(true);
+	exit((int)true);
+	exit((bool)true);
+	exit((float)true);
+	exit(f);
+
+}

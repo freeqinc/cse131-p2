@@ -1,0 +1,5 @@
+Error, "phase2/check10/p13b2.rc", line 22: 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check10/p13b2.rc", line 23: 
+  undeclared identifier 'B'.
+Compile: failure.

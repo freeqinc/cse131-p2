@@ -1,0 +1,9 @@
+Error, "phase2/check11/p14c3.rc", line 16: 
+  Value of type int not assignable to variable of type bool.
+Error, "phase2/check11/p14c3.rc", line 20: 
+  undeclared identifier 'x'.
+Error, "phase2/check11/p14c3.rc", line 26: 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check11/p14c3.rc", line 29: 
+  Value of type int not assignable to variable of type bool.
+Compile: failure.

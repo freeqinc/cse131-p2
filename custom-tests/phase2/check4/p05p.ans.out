@@ -1,0 +1,3 @@
+Error, "phase2/check4/p05p.rc", line 9: 
+  Argument of type float not assignable to value parameter a, of type int.
+Compile: failure.

@@ -1,0 +1,3 @@
+Error, "phase2/check15/p20l.rc", line 5: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

@@ -1,0 +1,13 @@
+Error, "phase2/check26/t02b.rc", line 8: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check26/t02b.rc", line 11: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check26/t02b.rc", line 12: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "phase2/check26/t02b.rc", line 16: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check26/t02b.rc", line 19: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check26/t02b.rc", line 20: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Compile: failure.

@@ -1,0 +1,5 @@
+Error, "phase2/check11/p14l.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check11/p14l.rc": 
+  Value of type MYS not assignable to variable of type int.
+Compile: failure.

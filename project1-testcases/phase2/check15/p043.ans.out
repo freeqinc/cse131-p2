@@ -1,0 +1,9 @@
+Error, "phase2/check15/p043.rc", line 6: 
+  bool required for conditional test, float found.
+Error, "phase2/check15/p043.rc", line 11: 
+  bool required for conditional test, float found.
+Error, "phase2/check15/p043.rc", line 16: 
+  bool required for conditional test, float found.
+Error, "phase2/check15/p043.rc", line 21: 
+  bool required for conditional test, float found.
+Compile: failure.

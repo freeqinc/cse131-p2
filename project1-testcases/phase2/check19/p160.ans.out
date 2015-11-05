@@ -1,0 +1,13 @@
+Error, "phase2/check19/p160.rc", line 5: 
+  Operand to "delete" is not a modifiable L-value.
+Error, "phase2/check19/p160.rc", line 7: 
+  Operand to "delete" is not a modifiable L-value.
+Error, "phase2/check19/p160.rc", line 10: 
+  Type of delete's operand must be of pointer type, int found.
+Error, "phase2/check19/p160.rc", line 11: 
+  Operand to "new" is not a modifiable L-value.
+Error, "phase2/check19/p160.rc", line 12: 
+  Operand to "new" is not a modifiable L-value.
+Error, "phase2/check19/p160.rc", line 13: 
+  Type of new's operand must be of pointer type, int found.
+Compile: failure.

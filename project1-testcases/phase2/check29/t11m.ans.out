@@ -1,0 +1,7 @@
+Error, "phase2/check29/t11m.rc", line 7: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "phase2/check29/t11m.rc", line 7: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "phase2/check29/t11m.rc", line 12: 
+  Argument of type float[10][11] not equivalent to reference parameter a, of type float.
+Compile: failure.

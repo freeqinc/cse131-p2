@@ -1,0 +1,7 @@
+Error, "phase2/check11/p14a2.rc", line 7: 
+  Type of expression referenced by "." (int) is not a struct.
+Error, "phase2/check11/p14a2.rc", line 9: 
+  Referenced field SomeField not found in type MYSTRUCT.
+Error, "phase2/check11/p14a2.rc", line 10: 
+  Referenced field SomeFunc not found in type MYSTRUCT.
+Compile: failure.

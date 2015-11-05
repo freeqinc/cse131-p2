@@ -1,0 +1,93 @@
+Error, "output.rc", line 45: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 50: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 52: 
+  Non-addressable argument of type int to address-of operator.
+Error, "output.rc", line 53: 
+  Non-addressable argument of type int to address-of operator.
+Error, "output.rc", line 54: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 61: 
+  Value of type int not assignable to variable of type int*.
+Error, "output.rc", line 63: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "output.rc", line 64: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "output.rc", line 77: 
+  Initialization value of type int* not assignable to constant/variable of type int******.
+Error, "output.rc", line 80: 
+  Value of type int* not assignable to variable of type int**.
+Error, "output.rc", line 84: 
+  Value of type int* not assignable to variable of type int**.
+Error, "output.rc", line 85: 
+  Value of type int** not assignable to variable of type int*.
+Error, "output.rc", line 86: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 89: 
+  Value of type int* not assignable to variable of type int**.
+Error, "output.rc", line 92: 
+  Value of type int not assignable to variable of type int*.
+Error, "output.rc", line 94: 
+  Value of type int** not assignable to variable of type int*.
+Error, "output.rc", line 99: 
+  Incompatible type int[5] to unary dereference operator *, pointer expected.
+Error, "output.rc", line 100: 
+  Incompatible type int to unary dereference operator *, pointer expected.
+Error, "output.rc", line 102: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 106: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 108: 
+  Value of type bool not assignable to variable of type int.
+Error, "output.rc", line 109: 
+  Incompatible type MYS to operator ->, pointer to struct expected.
+Error, "output.rc", line 111: 
+  Attempt to dereference nullptr keyword using *, ->, or [] operator.
+Error, "output.rc", line 112: 
+  Attempt to dereference nullptr keyword using *, ->, or [] operator.
+Error, "output.rc", line 113: 
+  Attempt to dereference nullptr keyword using *, ->, or [] operator.
+Error, "output.rc", line 114: 
+  Type of expression referenced by "output.rc" (nullptr) is not a struct.
+Error, "output.rc", line 123: 
+  Operand to "output.rc" is not a modifiable L-value.
+Error, "output.rc", line 124: 
+  Operand to "output.rc" is not a modifiable L-value.
+Error, "output.rc", line 125: 
+  Type of new's operand must be of pointer type, int found.
+Error, "output.rc", line 127: 
+  Type of delete's operand must be of pointer type, int found.
+Error, "output.rc", line 130: 
+  undeclared identifier 'x69'.
+Error, "output.rc", line 131: 
+  undeclared identifier 'x69'.
+Error, "output.rc", line 133: 
+  Operand to "output.rc" with constructor call is not of pointer to struct type, int* found.
+Error, "output.rc", line 135: 
+  Operand to "output.rc" with constructor call is not of pointer to struct type, int** found.
+Error, "output.rc", line 142: 
+  Incompatible types to operator ==:
+    int*,
+    int**;
+  both must be of equivalent pointer type.
+Error, "output.rc", line 147: 
+  Incompatible types to operator !=:
+    int*,
+    int**;
+  both must be of equivalent pointer type.
+Error, "output.rc", line 152: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 156: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 159: 
+  Value of type int** not assignable to variable of type int*.
+Error, "output.rc", line 160: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 188: 
+  Value of type MYS2* not assignable to variable of type MYS2.
+Error, "output.rc", line 190: 
+  Invalid type cast. Type nullptr to type int is not supported.
+Error, "output.rc", line 191: 
+  Invalid type cast. Type void to type int is not supported.
+Compile: failure.

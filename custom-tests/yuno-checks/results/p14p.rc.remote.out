@@ -1,0 +1,15 @@
+Error, "output.rc", line 11: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 12: 
+  Value of type MYS not assignable to variable of type int.
+Error, "output.rc", line 14: 
+  undeclared identifier 'x'.
+Error, "output.rc", line 15: 
+  Referenced field a not found in current struct.
+Error, "output.rc", line 23: 
+  Referenced field t not found in current struct.
+Error, "output.rc", line 30: 
+  Referenced field boo not found in current struct.
+Error, "output.rc", line 35: 
+  Referenced field foo2 not found in current struct.
+Compile: failure.

@@ -1,0 +1,13 @@
+Error, "phase2/check21/p170.rc", line 9: 
+  Incompatible types to operator ==:
+    int*,
+    bool*;
+  both must be of equivalent pointer type.
+Error, "phase2/check21/p170.rc", line 9: 
+  Incompatible types to operator !=:
+    int*,
+    bool*;
+  both must be of equivalent pointer type.
+Error, "phase2/check21/p170.rc", line 12: 
+  Value of type nullptr not assignable to variable of type int.
+Compile: failure.

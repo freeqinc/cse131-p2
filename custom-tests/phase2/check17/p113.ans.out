@@ -1,0 +1,23 @@
+Error, "phase2/check17/p113.rc", line 10: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "phase2/check17/p113.rc", line 11: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "phase2/check17/p113.rc", line 12: 
+  Index value of 10 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 14: 
+  Index value of 55 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 15: 
+  Index value of -99 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 16: 
+  Index value of 20 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 19: 
+  Index value of -9 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 22: 
+  Index value of -9 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 23: 
+  Index value of 14 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 24: 
+  Index value of -10 is outside legal range [0,10).
+Error, "phase2/check17/p113.rc", line 26: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

@@ -1,0 +1,5 @@
+Error, "phase2/check13/p16b.rc", line 25: 
+  Operand to "new" is not a modifiable L-value.
+Error, "phase2/check13/p16b.rc", line 30: 
+  Operand to "delete" is not a modifiable L-value.
+Compile: failure.

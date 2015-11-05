@@ -1,0 +1,3 @@
+Error, "phase2/check14/p20b.rc", line 8: 
+  Index value of 24 is outside legal range [0,20).
+Compile: failure.

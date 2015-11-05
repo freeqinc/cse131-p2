@@ -1,0 +1,43 @@
+Error, "phase2/check7/p10a1.rc", line 6: 
+  Index value of -1 is outside legal range [0,5).
+Error, "phase2/check7/p10a1.rc", line 7: 
+  Index value of 5 is outside legal range [0,5).
+Error, "phase2/check7/p10a1.rc", line 12: 
+  Index value of -1 is outside legal range [0,10).
+Error, "phase2/check7/p10a1.rc", line 13: 
+  Index value of 10 is outside legal range [0,10).
+Error, "phase2/check7/p10a1.rc", line 17: 
+  Index value of 14 is outside legal range [0,10).
+Error, "phase2/check7/p10a1.rc", line 18: 
+  Index value of 15 is outside legal range [0,10).
+Error, "phase2/check7/p10a1.rc", line 19: 
+  Index value of 14 is outside legal range [0,10).
+Error, "phase2/check7/p10a1.rc", line 20: 
+  Index value of 15 is outside legal range [0,10).
+Error, "phase2/check7/p10a1.rc", line 25: 
+  Index value of -1 is outside legal range [0,11).
+Error, "phase2/check7/p10a1.rc", line 26: 
+  Index value of -1 is outside legal range [0,12).
+Error, "phase2/check7/p10a1.rc", line 27: 
+  Index value of -1 is outside legal range [0,13).
+Error, "phase2/check7/p10a1.rc", line 28: 
+  Index value of -1 is outside legal range [0,11).
+Error, "phase2/check7/p10a1.rc", line 29: 
+  Index value of -1 is outside legal range [0,12).
+Error, "phase2/check7/p10a1.rc", line 31: 
+  Index value of 12 is outside legal range [0,11).
+Error, "phase2/check7/p10a1.rc", line 32: 
+  Index value of 13 is outside legal range [0,11).
+Error, "phase2/check7/p10a1.rc", line 33: 
+  Index value of 12 is outside legal range [0,11).
+Error, "phase2/check7/p10a1.rc", line 34: 
+  Index value of 12 is outside legal range [0,11).
+Error, "phase2/check7/p10a1.rc", line 35: 
+  Index value of 40 is outside legal range [0,11).
+Error, "phase2/check7/p10a1.rc", line 39: 
+  Index value of -1 is outside legal range [0,6).
+Error, "phase2/check7/p10a1.rc", line 40: 
+  Index value of 6 is outside legal range [0,6).
+Error, "phase2/check7/p10a1.rc", line 41: 
+  Index value of 10 is outside legal range [0,6).
+Compile: failure.

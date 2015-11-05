@@ -1,0 +1,5 @@
+Error, "phase2/check27/t05a.rc", line 6: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check27/t05a.rc", line 7: 
+  Return required in function, none found.
+Compile: failure.

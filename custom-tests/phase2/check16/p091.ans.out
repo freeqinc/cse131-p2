@@ -1,0 +1,7 @@
+Error, "phase2/check16/p091.rc", line 73: 
+  Illegal call to overloaded function foo.
+Error, "phase2/check16/p091.rc", line 75: 
+  Illegal call to overloaded function foo.
+Error, "phase2/check16/p091.rc", line 78: 
+  Illegal call to overloaded function foobar.
+Compile: failure.

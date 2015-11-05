@@ -1,0 +1,5 @@
+Error, "phase2/check23/p0812.rc", line 2: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "phase2/check23/p0812.rc", line 4: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Compile: failure.

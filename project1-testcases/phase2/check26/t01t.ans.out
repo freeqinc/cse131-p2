@@ -1,0 +1,3 @@
+Error, "phase2/check26/t01t.rc", line 5: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Compile: failure.

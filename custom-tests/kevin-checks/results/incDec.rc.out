@@ -1,0 +1,29 @@
+Error, "output.rc", line 16: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 17: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 18: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 19: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 36: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 37: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 38: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 39: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 41: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 42: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 43: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 44: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 46: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 47: 
+  Operand to ++ is not a modifiable L-value.
+Compile: failure.

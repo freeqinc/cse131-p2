@@ -1,0 +1,19 @@
+Error, "phase2/check7/p09e.rc", line 16: 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check7/p09e.rc", line 20: 
+  redeclared identifier 'foo2'.
+Error, "phase2/check7/p09e.rc", line 40: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check7/p09e.rc", line 41: 
+  Illegal call to overloaded function foo.
+Error, "phase2/check7/p09e.rc", line 42: 
+  Illegal call to overloaded function foo.
+Error, "phase2/check7/p09e.rc", line 45: 
+  Illegal call to overloaded function foo.
+Error, "phase2/check7/p09e.rc", line 46: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "phase2/check7/p09e.rc", line 46: 
+  Illegal call to overloaded function foo.
+Error, "phase2/check7/p09e.rc", line 47: 
+  undeclared identifier 'boo'.
+Compile: failure.

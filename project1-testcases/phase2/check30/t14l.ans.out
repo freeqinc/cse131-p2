@@ -1,0 +1,3 @@
+Error, "phase2/check30/t14l.rc", line 11: 
+  Type of return expression (int), not assignment compatible with function's return type (_MYS).
+Compile: failure.

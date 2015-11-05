@@ -1,0 +1,7 @@
+Error, "phase2/check28/t05u.rc", line 9: 
+  Number of arguments (4) differs from number of parameters (3).
+Error, "phase2/check28/t05u.rc", line 11: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "phase2/check28/t05u.rc", line 12: 
+  Return required in function, none found.
+Compile: failure.

@@ -1,0 +1,19 @@
+Error, "phase2/check15/p023.rc", line 2: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check15/p023.rc", line 5: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check15/p023.rc", line 8: 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check15/p023.rc", line 11: 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check15/p023.rc", line 15: 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "phase2/check15/p023.rc", line 19: 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "phase2/check15/p023.rc", line 22: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check15/p023.rc", line 25: 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check15/p023.rc", line 29: 
+  Operand to -- is not a modifiable L-value.
+Compile: failure.

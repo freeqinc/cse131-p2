@@ -1,0 +1,9 @@
+Error, "phase2/check10/p13e.rc": 
+  Field x declared second time in struct.
+Error, "phase2/check10/p13e.rc": 
+  Field x declared second time in struct.
+Error, "phase2/check10/p13e.rc": 
+  Field y declared second time in struct.
+Error, "phase2/check10/p13e.rc": 
+  Duplicate declaration of overloaded function foo.
+Compile: failure.

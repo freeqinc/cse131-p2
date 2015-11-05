@@ -1,0 +1,5 @@
+Error, "phase2/check19/p142.rc", line 13: 
+  Type of expression referenced by "." (int) is not a struct.
+Error, "phase2/check19/p142.rc", line 14: 
+  Referenced field c not found in type MYS.
+Compile: failure.

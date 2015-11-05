@@ -1,0 +1,8 @@
+java.lang.NullPointerException
+	at MyParser.isAssignable(MyParser.java:369)
+	at MyParser.DoAssignExpr(MyParser.java:411)
+	at CUP$parser$actions.CUP$parser$do_action(parser.java:1930)
+	at parser.do_action(parser.java:1076)
+	at java_cup.runtime.lr_parser.parse(lr_parser.java:569)
+	at RC.main(RC.java:50)
+Compile: failure.

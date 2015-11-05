@@ -1,0 +1,5 @@
+Error, "phase2/check16/p078.rc", line 6: 
+  Exit expression (type bool) is not assignable to int.
+Error, "phase2/check16/p078.rc", line 8: 
+  Exit expression (type float) is not assignable to int.
+Compile: failure.

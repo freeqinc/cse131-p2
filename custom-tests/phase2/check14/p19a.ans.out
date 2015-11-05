@@ -1,0 +1,5 @@
+Error, "phase2/check14/p19a.rc", line 8: 
+  Index value of 4 is outside legal range [0,4).
+Error, "phase2/check14/p19a.rc", line 11: 
+  Index value of 4 is outside legal range [0,4).
+Compile: failure.

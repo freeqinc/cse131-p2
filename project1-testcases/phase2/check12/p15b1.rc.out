@@ -1,0 +1,11 @@
+Error, "phase2/check12/p15b1.rc": 
+  Referenced field b not found in type MYSTRUCT.
+Error, "phase2/check12/p15b1.rc": 
+  Referenced field b not found in type MYSTRUCT.
+Error, "phase2/check12/p15b1.rc": 
+  Incompatible type int to unary dereference operator *, pointer expected.
+Error, "phase2/check12/p15b1.rc": 
+  Incompatible type MYSTRUCT to operator ->, pointer to struct expected.
+Error, "phase2/check12/p15b1.rc": 
+  Incompatible type int to unary dereference operator *, pointer expected.
+Compile: failure.

@@ -1,0 +1,168 @@
+int myX;
+
+int cat = 5;
+float dog = 5;
+bool frog = false;
+
+const int log = 5;
+const float flog = 5.5;
+const bool blog = false;
+
+int x;
+float y;
+bool z;
+
+float f = 5.5;
+function : void main()
+{
+
+
+    /*  CHECK 0 ====================================== */
+    int xTest;
+    int iTest = 5 + ::xTest;    // Error, cannot find x in the global scope
+    int jTest = 5 + ::myX;      // No Error
+
+    /*  CHECK 1 ====================================== */
+
+    x = 1; // OK
+
+    y = 2 + 2;           // int
+    y = 2 + 2.2;         // float
+
+    y = x + cat;         // int
+    y = x + dog;         // float
+    y = x + frog;        // error
+    y = frog + x;        // error
+
+    y = x - cat;         // int
+    y = x - dog;         // float
+    y = x - frog;        // error
+
+    y = x * cat;         // int
+    y = x * dog;         // float
+    y = x * frog;        // error
+
+    y = x / cat;         // int
+    y = x / dog;         // float
+    y = x / frog;        // error
+
+    y = x % cat;         // int
+    y = x % dog;         // float
+    y = x % frog;        // error
+    y = frog % x;        // error
+
+    frog = cat < dog;    // ok
+    frog = cat < frog;   // error
+    frog = frog < cat;   // error
+
+    frog = cat <= dog;   // ok
+    frog = cat <= frog;  // error
+
+    frog = cat > dog;    // ok
+    frog = cat > frog;   // error
+
+    frog = cat >= dog;   // ok
+    frog = cat >= cat;   // ok
+    frog = cat >= frog;  // error
+
+    z = (cat == dog);    // ok
+    z = (frog == frog);  // ok
+    z = (cat == frog);   // error
+
+    z = (cat != dog);    // ok
+    z = (frog != frog);  // ok
+    z = (cat != frog);   // error
+
+    z = cat && frog;     // error
+    z = frog && dog;     // error
+    z = frog && frog;    // ok
+
+    z = cat || frog;     // error
+    z = frog || dog;     // error
+    z = frog || frog;    // ok
+
+    z = !cat;            // error
+    z = !frog;           // ok
+
+    x = (frog & dog);    // error
+    x = (dog & frog);    // error
+    x = (cat & cat);     // ok
+
+    x = (frog | dog);    // error
+    x = (dog | frog);    // error
+    x = (cat | cat);     // ok
+
+    x = (frog ^ dog);    // error
+    x = (dog ^ frog);    // error
+    x = (cat ^ cat);     // ok
+
+    y = frog++;          // error
+    y = ++dog;           // ok
+    y = cat++;           // ok
+    y = 123++;           // error
+    y = log++;           // error
+
+    y = log++ = 123--;   // double error
+
+    /*  CHECK 2 ====================================== */
+
+    y = frog--;          // error
+    y = --dog;           // ok
+    y = cat--;           // ok
+    y = 123--;           // error
+    y = log--;           // error
+
+    y = dog++ + --dog;   // ok
+
+    /*  CHECK 3 ====================================== */
+
+    cat = 10;            // ok
+    log = 100;           // error
+    123 = 123;           // error
+    (cat + cat) = 123;   // error
+
+    1 = 3 = 4 = 2;       // error at 4 = 2 first
+    5 = log++;           // error at log++ first
+
+
+    x = y;               // error int <- float
+    x = 2.2;             // error int <- float
+    z = x;               // error bool <- int
+    y = x;               // ok float <- int
+    log = 5.5;           // error const int <- float type conflict first
+    blog = blog++;       // error const bool <- const bool ++, ++ type error first
+
+
+    int f = 5;           // ok
+    f = ::f;             // error int <- float (global)
+
+    /*  CHECK 4 ====================================== */
+
+    if (false) {}        // ok
+    if (5) {}            // error
+    if (flog) {}         // error
+    if (frog) {}         // ok
+    if (blog) {}         // ok
+    if (cat) {}          // error
+
+    while (false) {}     // ok
+    while (5) {}         // error
+    while (flog) {}      // error
+    while (frog) {}      // ok
+    while (blog) {}      // ok
+    while (cat) {}       // error
+
+    while (5++) {}       // error on 5++ first
+    while (--blog) {}    // error on type dec first
+
+    /*  CHECK 5 ====================================== */
+
+
+    /*  CHECK 6 ====================================== */
+
+
+    /*  CRAZY CASES ====================================== */
+
+    while (1 = 3 = 5 = (true + --5.5) ) {}
+    true = 5.5++ - --false;
+}

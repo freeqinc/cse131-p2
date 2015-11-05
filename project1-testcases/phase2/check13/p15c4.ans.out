@@ -1,0 +1,9 @@
+Error, "phase2/check13/p15c4.rc", line 7: 
+  Initialization value of type int not assignable to constant/variable of type int*.
+Error, "phase2/check13/p15c4.rc", line 8: 
+  Initialization value of type int* not assignable to constant/variable of type float*.
+Error, "phase2/check13/p15c4.rc", line 9: 
+  Initialization value of type bool* not assignable to constant/variable of type int*.
+Error, "phase2/check13/p15c4.rc", line 11: 
+  Index value of 2 is outside legal range [0,2).
+Compile: failure.

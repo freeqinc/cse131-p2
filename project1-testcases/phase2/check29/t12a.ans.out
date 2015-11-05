@@ -1,0 +1,7 @@
+Error, "phase2/check29/t12a.rc", line 3: 
+  Break does not occur in a loop.
+Error, "phase2/check29/t12a.rc", line 5: 
+  Continue does not occur in a loop.
+Error, "phase2/check29/t12a.rc", line 7: 
+  Return required in function, none found.
+Compile: failure.

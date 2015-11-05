@@ -1,0 +1,25 @@
+Error, "phase2/check13/p16f.rc", line 14: 
+  Type of new's operand must be of pointer type, int found.
+Error, "phase2/check13/p16f.rc", line 16: 
+  Type of delete's operand must be of pointer type, int found.
+Error, "phase2/check13/p16f.rc", line 22: 
+  Operand to "new" is not a modifiable L-value.
+Error, "phase2/check13/p16f.rc", line 23: 
+  Operand to "delete" is not a modifiable L-value.
+Error, "phase2/check13/p16f.rc", line 24: 
+  Operand to "new" is not a modifiable L-value.
+Error, "phase2/check13/p16f.rc", line 26: 
+  Operand to "delete" is not a modifiable L-value.
+Error, "phase2/check13/p16f.rc", line 37: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check13/p16f.rc", line 41: 
+  Number of arguments (1) differs from number of parameters (0).
+Error, "phase2/check13/p16f.rc", line 43: 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "phase2/check13/p16f.rc", line 46: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check13/p16f.rc", line 48: 
+  Type of new's operand must be of pointer type, MYS_B found.
+Error, "phase2/check13/p16f.rc", line 50: 
+  Type of delete's operand must be of pointer type, MYS_B found.
+Compile: failure.

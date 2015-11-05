@@ -1,0 +1,5 @@
+Error, "phase2/check16/p086.rc", line 1: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check16/p086.rc", line 3: 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

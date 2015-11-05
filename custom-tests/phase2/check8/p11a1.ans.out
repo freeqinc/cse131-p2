@@ -1,0 +1,5 @@
+Error, "phase2/check8/p11a1.rc", line 15: 
+  Index value of 9 is outside legal range [0,2).
+Error, "phase2/check8/p11a1.rc", line 16: 
+  Index value of 3 is outside legal range [0,2).
+Compile: failure.

@@ -1,0 +1,13 @@
+Error, "phase2/check8/p11a2.rc", line 8: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "phase2/check8/p11a2.rc", line 13: 
+  Index value of 3599 is outside legal range [0,10).
+Error, "phase2/check8/p11a2.rc", line 16: 
+  Index value of -1 is outside legal range [0,10).
+Error, "phase2/check8/p11a2.rc", line 32: 
+  Index value of 10 is outside legal range [0,5).
+Error, "phase2/check8/p11a2.rc", line 34: 
+  Index value of 3599 is outside legal range [0,5).
+Error, "phase2/check8/p11a2.rc", line 49: 
+  Argument of type int[10] not assignable to value parameter intp, of type int*.
+Compile: failure.

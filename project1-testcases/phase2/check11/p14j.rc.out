@@ -1,0 +1,5 @@
+Error, "phase2/check11/p14j.rc": 
+  Referenced field foo not found in current struct.
+Error, "phase2/check11/p14j.rc": 
+  Referenced field x not found in current struct.
+Compile: failure.

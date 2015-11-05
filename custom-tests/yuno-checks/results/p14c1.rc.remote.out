@@ -1,0 +1,5 @@
+Error, "output.rc", line 7: 
+  undeclared identifier 'x'.
+Error, "output.rc", line 11: 
+  undeclared identifier 'y'.
+Compile: failure.

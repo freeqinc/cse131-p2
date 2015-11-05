@@ -1,0 +1,3 @@
+Error, "phase2/check29/t11c.rc", line 5: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Compile: failure.

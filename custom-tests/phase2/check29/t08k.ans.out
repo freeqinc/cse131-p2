@@ -1,0 +1,5 @@
+Error, "phase2/check29/t08k.rc", line 3: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check29/t08k.rc", line 4: 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

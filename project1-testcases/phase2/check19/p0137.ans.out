@@ -1,0 +1,9 @@
+Error, "phase2/check19/p0137.rc", line 11: 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Error, "phase2/check19/p0137.rc", line 14: 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "phase2/check19/p0137.rc", line 17: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "phase2/check19/p0137.rc", line 20: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Compile: failure.

@@ -1,0 +1,7 @@
+Error, "phase2/check7/p011.rc", line 4: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check7/p011.rc", line 5: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check7/p011.rc", line 6: 
+  Incompatible type bool to binary operator +, numeric expected.
+Compile: failure.

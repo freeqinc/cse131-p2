@@ -1,0 +1,19 @@
+Error, "output.rc", line 21: 
+  Number of arguments (2) differs from number of parameters (0).
+Error, "output.rc", line 28: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 29: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 31: 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "output.rc", line 32: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 34: 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "output.rc", line 37: 
+  Illegal call to overloaded function MYS_C.
+Error, "output.rc", line 39: 
+  Illegal call to overloaded function MYS_C.
+Error, "output.rc", line 40: 
+  Illegal call to overloaded function MYS_C.
+Compile: failure.

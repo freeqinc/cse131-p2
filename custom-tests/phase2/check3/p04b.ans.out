@@ -1,0 +1,3 @@
+Error, "phase2/check3/p04b.rc", line 7: 
+  bool required for conditional test, float found.
+Compile: failure.

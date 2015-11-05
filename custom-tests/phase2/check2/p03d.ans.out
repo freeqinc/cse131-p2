@@ -1,0 +1,3 @@
+Error, "phase2/check2/p03d.rc", line 7: 
+  Value of type bool not assignable to variable of type int.
+Compile: failure.

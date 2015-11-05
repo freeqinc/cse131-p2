@@ -1,0 +1,7 @@
+Error, "phase2/check16/p092.rc", line 6: 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check16/p092.rc", line 11: 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check16/p092.rc", line 21: 
+  Illegal call to overloaded function foo.
+Compile: failure.

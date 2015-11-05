@@ -1,0 +1,23 @@
+Error, "phase2/check6/p08k.rc", line 5: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check6/p08k.rc", line 6: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "phase2/check6/p08k.rc", line 7: 
+  Initialization value of constant named f not known at compile time.
+Error, "phase2/check6/p08k.rc", line 8: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check6/p08k.rc", line 9: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check6/p08k.rc", line 11: 
+  redeclared identifier 'h'.
+Error, "phase2/check6/p08k.rc", line 12: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check6/p08k.rc", line 33: 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Error, "phase2/check6/p08k.rc", line 35: 
+  redeclared identifier 'c'.
+Error, "phase2/check6/p08k.rc", line 37: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "phase2/check6/p08k.rc", line 38: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Compile: failure.

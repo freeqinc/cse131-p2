@@ -1,0 +1,7 @@
+Error, "phase2/check8/p11a3.rc", line 29: 
+  Index value of 9 is outside legal range [0,5).
+Error, "phase2/check8/p11a3.rc", line 30: 
+  Index value of 9 is outside legal range [0,4).
+Error, "phase2/check8/p11a3.rc", line 40: 
+  Argument of type int[10] not assignable to value parameter intp, of type int*.
+Compile: failure.

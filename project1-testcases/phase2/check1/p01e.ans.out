@@ -1,0 +1,3 @@
+Error, "phase2/check1/p01e.rc", line 7: 
+  Incompatible type bool to binary operator *, numeric expected.
+Compile: failure.

@@ -1,0 +1,5 @@
+Error, "phase2/check27/t05b.rc", line 5: 
+  Type of return expression (int*) is not equivalent to the function's return type (int).
+Error, "phase2/check27/t05b.rc", line 9: 
+  Return required in function, none found.
+Compile: failure.

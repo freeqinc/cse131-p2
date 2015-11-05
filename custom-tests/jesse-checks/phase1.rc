@@ -1,0 +1,245 @@
+int myX;
+
+int cat = 5;
+float dog = 5;
+bool frog = false;
+
+const int log = 5;
+const float flog = 5.5;
+const bool blog = false;
+
+int x;
+float y;
+bool z;
+
+float f = 5.5;
+
+
+function : void fun1(int a, int b, float c) {}
+function : void fun2(float &a, int b, bool c) {}
+function : void fun3(float &a, bool &z, int g) {}
+
+function : int fun4() { return; }
+function : bool fun5() { return flog++; }
+function : bool fun6() { return log; }
+function : int & fun7() { return 5.5; }
+function : bool & fun8() { return true; }
+function : float & fun9() {
+    float booboo = 5.5;
+    return booboo;
+}
+function : int & fun10() {
+    int zeezee = 5;
+    return zeezee;
+}
+function : int & fun11() {}
+function : bool & fun12() {
+    if (true) {
+        return true;
+    }
+}
+function : bool & fun13() {
+    if (true) {
+        return true;
+    }
+    return true;
+}
+function : int & fun14() {
+    return 5;
+}
+
+
+int* intPtr;
+
+function : void main()
+{
+
+
+    /*  CHECK 0 ====================================== */
+    int xTest;
+    int iTest = 5 + ::xTest;    // Error, cannot find x in the global scope
+    int jTest = 5 + ::myX;      // No Error
+
+    /*  CHECK 1 ====================================== */
+
+    x = 1; // OK
+
+    y = 2 + 2;           // int
+    y = 2 + 2.2;         // float
+
+    y = x + cat;         // int
+    y = x + dog;         // float
+    y = x + frog;        // error
+    y = frog + x;        // error
+
+    y = x - cat;         // int
+    y = x - dog;         // float
+    y = x - frog;        // error
+
+    y = x * cat;         // int
+    y = x * dog;         // float
+    y = x * frog;        // error
+
+    y = x / cat;         // int
+    y = x / dog;         // float
+    y = x / frog;        // error
+
+    y = x % cat;         // int
+    y = x % dog;         // float
+    y = x % frog;        // error
+    y = frog % x;        // error
+
+    frog = cat < dog;    // ok
+    frog = cat < frog;   // error
+    frog = frog < cat;   // error
+
+    frog = cat <= dog;   // ok
+    frog = cat <= frog;  // error
+
+    frog = cat > dog;    // ok
+    frog = cat > frog;   // error
+
+    frog = cat >= dog;   // ok
+    frog = cat >= cat;   // ok
+    frog = cat >= frog;  // error
+
+    z = (cat == dog);    // ok
+    z = (frog == frog);  // ok
+    z = (cat == frog);   // error
+
+    z = (cat != dog);    // ok
+    z = (frog != frog);  // ok
+    z = (cat != frog);   // error
+
+    z = cat && frog;     // error
+    z = frog && dog;     // error
+    z = frog && frog;    // ok
+
+    z = cat || frog;     // error
+    z = frog || dog;     // error
+    z = frog || frog;    // ok
+
+    z = !cat;            // error
+    z = !frog;           // ok
+
+    x = (frog & dog);    // error
+    x = (dog & frog);    // error
+    x = (cat & cat);     // ok
+
+    x = (frog | dog);    // error
+    x = (dog | frog);    // error
+    x = (cat | cat);     // ok
+
+    x = (frog ^ dog);    // error
+    x = (dog ^ frog);    // error
+    x = (cat ^ cat);     // ok
+
+    y = frog++;          // error
+    y = ++dog;           // ok
+    y = cat++;           // ok
+    y = 123++;           // error
+    y = log++;           // error
+
+    y = log++ = 123--;   // double error
+
+    /*  CHECK 2 ====================================== */
+
+    y = frog--;          // error
+    y = --dog;           // ok
+    y = cat--;           // ok
+    y = 123--;           // error
+    y = log--;           // error
+
+    y = dog++ + --dog;   // ok
+
+    /*  CHECK 3 ====================================== */
+
+    cat = 10;            // ok
+    log = 100;           // error
+    123 = 123;           // error
+    (cat + cat) = 123;   // error
+
+    1 = 3 = 4 = 2;       // error at 4 = 2 first
+    5 = log++;           // error at log++ first
+
+
+    x = y;               // error int <- float
+    x = 2.2;             // error int <- float
+    z = x;               // error bool <- int
+    y = x;               // ok float <- int
+    log = 5.5;           // error const int <- float type conflict first
+    blog = blog++;       // error const bool <- const bool ++, ++ type error first
+
+
+    int f = 5;           // ok
+    f = ::f;             // error int <- float (global)
+
+    /*  CHECK 4 ====================================== */
+
+    if (false) {}        // ok
+    if (5) {}            // error
+    if (flog) {}         // error
+    if (frog) {}         // ok
+    if (blog) {}         // ok
+    if (cat) {}          // error
+
+    while (false) {}     // ok
+    while (5) {}         // error
+    while (flog) {}      // error
+    while (frog) {}      // ok
+    while (blog) {}      // ok
+    while (cat) {}       // error
+
+    while (5++) {}       // error on 5++ first
+    while (--blog) {}    // error on type dec first
+
+    /*  CHECK 5 ====================================== */
+
+    fun1(1, 2);                     // error 2 vs 3
+    fun1(1, 2, 3);                  // ok
+    fun1(1, 2, true);               // error assignable
+    fun1(1.1, 2.2, true);           // error assignable, 3.3 first @@@@@@@@@@@@ UNSURE ABOUT THIS ONE? REF PRINTS ALL THREE
+    fun1(1.1, 2.2);                 // error args first
+
+    fun2(5.5, 5.5, true);           // error, arg 1 should MLV
+    fun2(log, 5.5, true);           // error, not a float
+    fun2(flog, 5.5, true);          // error, float, but not MLV
+    fun2(dog, 5.5, false);          // error, int on 2nd arg
+    fun2(dog, 5, false);            // ok!
+
+
+    /*  CHECK 6 ====================================== */
+
+
+    /*  CHECK 7 ====================================== */
+
+    exit(5);        // ok
+    exit(log);      // ok
+    exit(cat);      // ok
+
+    exit(5.5);      // bad
+    exit(dog);      // bad
+    exit(flog);     // bad
+    exit(flog++);   // bad on flog++ first
+    exit(5.5);
+    exit(false);
+
+    float g = 1.0;
+    exit(g);
+
+    /*  CRAZY CASES =================================== */
+
+    while (1 = 3 = 5 = (true + --5.5) ) {}
+    true = 5.5++ - --false;
+    fun3(flog, true, 5.5);
+
+    int mult1 = 5.5;
+    int mult1 = 5;
+}
+
+function : float & fun69(float &a, bool &z) {
+    if (true + 5) {
+        return 5.5++;
+    }
+    return 5.5;
+}

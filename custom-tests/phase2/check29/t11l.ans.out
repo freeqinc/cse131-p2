@@ -1,0 +1,7 @@
+Error, "phase2/check29/t11l.rc", line 9: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "phase2/check29/t11l.rc", line 9: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "phase2/check29/t11l.rc", line 16: 
+  Argument of type float not assignable to value parameter f, of type float*.
+Compile: failure.

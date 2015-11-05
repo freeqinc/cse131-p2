@@ -1,0 +1,9 @@
+Error, "phase2/check29/t11s.rc", line 11: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check29/t11s.rc", line 12: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check29/t11s.rc", line 13: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check29/t11s.rc", line 14: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

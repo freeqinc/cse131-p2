@@ -1,0 +1,3 @@
+Error, "phase2/check29/t11w.rc", line 9: 
+  Argument of type float[2] not equivalent to reference parameter f, of type float*.
+Compile: failure.

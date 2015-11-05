@@ -1,0 +1,5 @@
+Error, "phase2/check21/p181.rc", line 8: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check21/p181.rc", line 12: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

@@ -1,0 +1,7 @@
+Error, "phase2/check15/p20k.rc", line 9: 
+  Value of index expression not known at compile time.
+Error, "phase2/check15/p20k.rc", line 10: 
+  Value of index expression not known at compile time.
+Error, "phase2/check15/p20k.rc", line 11: 
+  Value of index expression not known at compile time.
+Compile: failure.

@@ -1,0 +1,60 @@
+function : void foo(){
+
+	int i = 10;
+	float j = 10.0;
+	bool k = true;
+
+	if(k)
+	{}
+
+	if(i)
+	{}
+	
+	if(j)
+	{}
+
+	if(!k)
+	{}
+	
+	if(j<i)
+	{}
+	
+	if(i>j)
+	{}
+	
+	if(i++ < 11)
+	{}
+	
+	if(j-- < 20)
+	{}
+
+	while(k)
+	{}
+
+	while(i)
+	{}
+	
+	while(j)
+	{}
+
+	while(!k)
+	{}
+	
+	while(j<i)
+	{}
+	
+	while(i>j)
+	{}
+	
+	while(i++ < 11)
+	{}
+	
+	while(j-- < 20)
+	{}
+	
+	while((bool)i)
+	{}
+
+	while((bool)j)
+	{}
+}

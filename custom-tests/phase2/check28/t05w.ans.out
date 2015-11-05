@@ -1,0 +1,5 @@
+Error, "phase2/check28/t05w.rc", line 13: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "phase2/check28/t05w.rc", line 14: 
+  Type of index expression in array reference (float) not equivalent to int.
+Compile: failure.

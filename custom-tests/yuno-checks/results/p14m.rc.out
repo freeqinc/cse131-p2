@@ -1,0 +1,11 @@
+Error, "output.rc", line 25: 
+  Number of arguments (2) differs from number of parameters (0).
+Error, "output.rc", line 27: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 30: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "output.rc", line 35: 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "output.rc", line 38: 
+  Illegal call to overloaded function MYC.
+Compile: failure.

@@ -1,0 +1,17 @@
+Error, "phase2/check26/t01f.rc", line 7: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "phase2/check26/t01f.rc", line 8: 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "phase2/check26/t01f.rc", line 9: 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "phase2/check26/t01f.rc", line 10: 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "phase2/check26/t01f.rc", line 11: 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "phase2/check26/t01f.rc", line 12: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "phase2/check26/t01f.rc", line 13: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "phase2/check26/t01f.rc", line 14: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Compile: failure.

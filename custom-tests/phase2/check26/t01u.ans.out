@@ -1,0 +1,3 @@
+Error, "phase2/check26/t01u.rc", line 8: 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Compile: failure.

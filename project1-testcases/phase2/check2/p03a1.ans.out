@@ -1,0 +1,5 @@
+Error, "phase2/check2/p03a1.rc", line 3: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check2/p03a1.rc", line 5: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

@@ -1,0 +1,35 @@
+Error, "output.rc", line 14: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "output.rc", line 15: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "output.rc", line 16: 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "output.rc", line 20: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "output.rc", line 21: 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "output.rc", line 22: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "output.rc", line 23: 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "output.rc", line 24: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "output.rc", line 35: 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "output.rc", line 36: 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "output.rc", line 37: 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "output.rc", line 38: 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "output.rc", line 42: 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "output.rc", line 43: 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "output.rc", line 46: 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "output.rc", line 48: 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "output.rc", line 50: 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Compile: failure.

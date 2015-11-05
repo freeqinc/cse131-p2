@@ -1,0 +1,13 @@
+Error, "phase2/check13/p17c.rc", line 1: 
+  Initialization value of constant named cb not known at compile time.
+Error, "phase2/check13/p17c.rc", line 20: 
+  Incompatible types to operator !=:
+    float*,
+    int*;
+  both must be of equivalent pointer type.
+Error, "phase2/check13/p17c.rc", line 22: 
+  Incompatible types to operator ==:
+    int*,
+    float*;
+  both must be of equivalent pointer type.
+Compile: failure.

@@ -1,0 +1,7 @@
+Error, "phase2/check28/t05s.rc", line 9: 
+  Argument passed to reference parameter a1 (type bool) is not a modifiable L-value.
+Error, "phase2/check28/t05s.rc", line 10: 
+  Argument passed to reference parameter a1 (type bool) is not a modifiable L-value.
+Error, "phase2/check28/t05s.rc", line 12: 
+  Return required in function, none found.
+Compile: failure.

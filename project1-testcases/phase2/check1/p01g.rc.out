@@ -1,0 +1,3 @@
+Error, "phase2/check1/p01g.rc": 
+  Value of type float not assignable to variable of type int.
+Compile: failure.

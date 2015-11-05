@@ -1,0 +1,5 @@
+Error, "phase2/check30/t12c.rc", line 3: 
+  bool required for conditional test, int found.
+Error, "phase2/check30/t12c.rc", line 9: 
+  Return required in function, none found.
+Compile: failure.

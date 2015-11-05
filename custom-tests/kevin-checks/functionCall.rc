@@ -1,0 +1,53 @@
+function : void abc ( int & i )
+{
+
+}
+
+function : void ding ( int i )
+{
+
+}
+
+function : void foo()
+{
+	int i = 5;
+	float j = 5.0;
+	bool k = false;
+
+	int * d = &i;
+
+	abc(i);
+	abc(1);
+	abc(1.0);
+	abc((float)1);
+	abc((int)1);
+	abc(true);
+	abc(k);
+	abc(j);	
+	abc(i+1);
+	abc(i+j);
+	abc(&j);
+	abc(d);
+	abc(&d);
+	abc(*d);
+
+	ding(i);
+	ding(1);
+	ding(1.0);
+	ding((float)1);
+	ding((int)1);
+	ding(true);
+	ding(k);
+	ding(j);	
+	ding(i+1);
+	ding(i+j);
+	ding(&j);
+	ding(d);	
+	ding(&d);
+	ding(*d);
+	
+	abc(i,j);
+	ding(k,j);
+}
+
+

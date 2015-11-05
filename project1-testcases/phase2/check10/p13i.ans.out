@@ -1,0 +1,13 @@
+Error, "phase2/check10/p13i.rc", line 7: 
+  Name of constructor FOO does not match name of struct MYS.
+Error, "phase2/check10/p13i.rc", line 7: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "phase2/check10/p13i.rc", line 8: 
+  Name of destructor ~BAR does not match name of struct MYS.
+Error, "phase2/check10/p13i.rc", line 9: 
+  Duplicate declaration of overloaded function MYS.
+Error, "phase2/check10/p13i.rc", line 10: 
+  Duplicate declaration of overloaded function MYS.
+Error, "phase2/check10/p13i.rc", line 11: 
+  Duplicate declaration of overloaded function ~MYS.
+Compile: failure.

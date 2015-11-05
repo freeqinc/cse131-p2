@@ -1,0 +1,3 @@
+Error, "phase2/check14/p19d.rc", line 8: 
+  Argument of type bool[4] not assignable to value parameter p2, of type bool*.
+Compile: failure.

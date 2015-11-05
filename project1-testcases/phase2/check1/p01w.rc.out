@@ -1,0 +1,137 @@
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check1/p01w.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check1/p01w.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check1/p01w.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check1/p01w.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "phase2/check1/p01w.rc": 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Compile: failure.

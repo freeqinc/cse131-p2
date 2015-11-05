@@ -1,0 +1,9 @@
+Error, "output.rc", line 11: 
+  bool required for conditional test, int found.
+Error, "output.rc", line 14: 
+  bool required for conditional test, float found.
+Error, "output.rc", line 35: 
+  bool required for conditional test, int found.
+Error, "output.rc", line 38: 
+  bool required for conditional test, float found.
+Compile: failure.

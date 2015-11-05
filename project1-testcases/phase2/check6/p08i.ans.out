@@ -1,0 +1,13 @@
+Error, "phase2/check6/p08i.rc", line 3: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "phase2/check6/p08i.rc", line 10: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check6/p08i.rc", line 16: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check6/p08i.rc", line 19: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check6/p08i.rc", line 20: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check6/p08i.rc", line 21: 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Compile: failure.

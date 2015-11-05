@@ -1,0 +1,21 @@
+Error, "phase2/check26/t02c.rc", line 5: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 6: 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 7: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 8: 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 10: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 11: 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 12: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 13: 
+  Operand to -- is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 15: 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check26/t02c.rc", line 16: 
+  Operand to -- is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,5 @@
+Error, "output.rc", line 7: 
+  Identifier x is undeclared in the global scope.
+Error, "output.rc", line 16: 
+  redeclared identifier 'x'.
+Compile: failure.

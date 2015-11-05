@@ -1,0 +1,3 @@
+Error, "phase2/check11/p14f.rc": 
+  Referenced field f2 not found in type REC.
+Compile: failure.

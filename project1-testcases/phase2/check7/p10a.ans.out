@@ -1,0 +1,3 @@
+Error, "phase2/check7/p10a.rc", line 11: 
+  Index expression value (0) in array declaration must be > 0.
+Compile: failure.

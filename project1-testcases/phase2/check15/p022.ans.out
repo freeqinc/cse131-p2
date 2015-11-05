@@ -1,0 +1,3 @@
+Error, "phase2/check15/p022.rc", line 3: 
+  Operand to ++ is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,9 @@
+Error, "phase2/check30/t14f.rc", line 24: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check30/t14f.rc", line 24: 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check30/t14f.rc", line 25: 
+  Referenced field z not found in type _MYS_2.
+Error, "phase2/check30/t14f.rc", line 26: 
+  Return required in function, none found.
+Compile: failure.

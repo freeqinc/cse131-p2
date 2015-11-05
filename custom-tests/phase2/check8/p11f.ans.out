@@ -1,0 +1,3 @@
+Error, "phase2/check8/p11f.rc", line 11: 
+  Type of index expression in array reference (float) not equivalent to int.
+Compile: failure.

@@ -1,0 +1,51 @@
+Error, "output.rc", line 8: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 10: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 14: 
+  Incompatible type array to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 14: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 15: 
+  Value of type array not assignable to variable of type int.
+Error, "output.rc", line 16: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 18: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 20: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 22: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 24: 
+  Operand to -- is not a modifiable L-value.
+Error, "output.rc", line 25: 
+  undeclared identifier 'chicken'.
+Error, "output.rc", line 25: 
+  Incompatible type Error to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 26: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 27: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 29: 
+  undeclared identifier 'chicken'.
+Error, "output.rc", line 29: 
+  undeclared identifier 'chicken'.
+Error, "output.rc", line 29: 
+  Incompatible type Error to operator ++, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 30: 
+  undeclared identifier 'chicken'.
+Error, "output.rc", line 30: 
+  undeclared identifier 'chicken'.
+Error, "output.rc", line 30: 
+  Incompatible type Error to operator --, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 31: 
+  undeclared identifier 'chicken'.
+Error, "output.rc", line 31: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 31: 
+  undeclared identifier 'chicken'.
+Error, "output.rc", line 31: 
+  Incompatible type Error to operator --, equivalent to int, float, or pointer expected.
+Error, "output.rc", line 31: 
+  Incompatible type Error to operator ++, equivalent to int, float, or pointer expected.
+Compile: failure.

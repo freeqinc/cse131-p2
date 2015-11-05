@@ -1,0 +1,45 @@
+Error, "output.rc", line 6: 
+  Field x declared second time in struct.
+Error, "output.rc", line 8: 
+  Field x declared second time in struct.
+Error, "output.rc", line 10: 
+  Referenced field a not found in current struct.
+Error, "output.rc", line 15: 
+  Referenced field a not found in current struct.
+Error, "output.rc", line 16: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 24: 
+  Return required in function, none found.
+Error, "output.rc", line 38: 
+  Field x declared second time in struct.
+Error, "output.rc", line 40: 
+  Referenced field a not found in current struct.
+Error, "output.rc", line 45: 
+  Referenced field a not found in current struct.
+Error, "output.rc", line 46: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 71: 
+  Illegal call to overloaded function MYS1.
+Error, "output.rc", line 72: 
+  Illegal call to overloaded function MYS2.
+Error, "output.rc", line 84: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 85: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 86: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 92: 
+  Referenced field a not found in type MYS1.
+Error, "output.rc", line 93: 
+  Referenced field a not found in type MYS1.
+Error, "output.rc", line 94: 
+  Referenced field a not found in type MYS1.
+Error, "output.rc", line 102: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 107: 
+  Value of type void not assignable to variable of type int.
+Error, "output.rc", line 108: 
+  Value of type void not assignable to variable of type int.
+Error, "output.rc", line 111: 
+  Value of type void not assignable to variable of type int.
+Compile: failure.

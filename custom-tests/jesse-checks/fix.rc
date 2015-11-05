@@ -1,0 +1,42 @@
+structdef MYS {
+    float * f;
+};
+
+function : int main() {
+
+
+    MYS ** a;
+    int * penis;
+
+
+    new penis;
+
+    new penis : ();
+    new penis : (2.5);
+    new a;
+    new *a;
+
+
+
+    int arr[5];
+
+
+
+    const int z = 5 + (int)arr[3];
+
+    int x = 5;
+    +x++;
+    -x++;
+    &5;
+
+    (&(+x));
+
+    (&(-x));
+
+    +++x;
+    ++-x;
+    +x++;
+    -x++;
+
+    return 0;
+}

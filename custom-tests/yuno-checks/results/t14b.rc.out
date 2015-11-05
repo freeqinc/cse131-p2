@@ -1,0 +1,5 @@
+Error, "output.rc", line 6: 
+  Return required in function, none found.
+Error, "output.rc", line 20: 
+  Return required in function, none found.
+Compile: failure.

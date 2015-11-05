@@ -1,0 +1,3 @@
+Error, "phase2/check29/t10i.rc", line 6: 
+  Index expression value (-10) in array declaration must be > 0.
+Compile: failure.

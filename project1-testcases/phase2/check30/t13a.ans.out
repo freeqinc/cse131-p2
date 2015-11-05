@@ -1,0 +1,9 @@
+Error, "phase2/check30/t13a.rc", line 5: 
+  Field y declared second time in struct.
+Error, "phase2/check30/t13a.rc", line 6: 
+  Field x declared second time in struct.
+Error, "phase2/check30/t13a.rc", line 6: 
+  Field x declared second time in struct.
+Error, "phase2/check30/t13a.rc", line 14: 
+  Return required in function, none found.
+Compile: failure.

@@ -1,0 +1,13 @@
+Error, "phase2/check26/t03a.rc", line 5: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check26/t03a.rc", line 6: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check26/t03a.rc", line 7: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check26/t03a.rc", line 8: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check26/t03a.rc", line 11: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check26/t03a.rc", line 12: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

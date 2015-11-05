@@ -1,0 +1,3 @@
+Error, "phase2/check19/p0151.rc", line 4: 
+  Incompatible type bool to binary operator /, numeric expected.
+Compile: failure.

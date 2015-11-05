@@ -1,0 +1,19 @@
+Error, "output.rc", line 12: 
+  Return required in function, none found.
+Error, "output.rc", line 22: 
+  Return required in function, none found.
+Error, "output.rc", line 27: 
+  Type of return expression (float), not assignment compatible with function's return type (int).
+Error, "output.rc", line 37: 
+  Return required in function, none found.
+Error, "output.rc", line 45: 
+  Exit expression (type float) is not assignable to int.
+Error, "output.rc", line 46: 
+  Exit expression (type bool) is not assignable to int.
+Error, "output.rc", line 48: 
+  Exit expression (type bool) is not assignable to int.
+Error, "output.rc", line 49: 
+  Exit expression (type float) is not assignable to int.
+Error, "output.rc", line 51: 
+  Exit expression (type float) is not assignable to int.
+Compile: failure.

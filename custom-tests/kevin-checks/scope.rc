@@ -1,0 +1,19 @@
+int myX = 5;
+
+function : void foo(){
+
+	int x = 5;
+	
+	int i = 5 + ::x;
+
+	int k = 5 + x;
+
+	int j = 5 +::myX;
+
+	if(x == 5)
+	{
+		int x = 7;
+		int x;
+	}	
+
+}

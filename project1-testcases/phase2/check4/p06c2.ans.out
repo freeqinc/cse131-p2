@@ -1,0 +1,5 @@
+Error, "phase2/check4/p06c2.rc", line 4: 
+  Return required in function, none found.
+Error, "phase2/check4/p06c2.rc", line 13: 
+  Return required in function, none found.
+Compile: failure.

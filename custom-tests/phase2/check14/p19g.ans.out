@@ -1,0 +1,21 @@
+Error, "phase2/check14/p19g.rc", line 11: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 12: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 16: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 17: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 18: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 19: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 20: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 21: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 22: 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check14/p19g.rc", line 23: 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

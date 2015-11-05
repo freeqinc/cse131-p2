@@ -1,0 +1,3 @@
+Error, "phase2/check29/t11k.rc", line 7: 
+  Index value of -4 is outside legal range [0,10).
+Compile: failure.

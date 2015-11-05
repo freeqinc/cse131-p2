@@ -1,0 +1,235 @@
+Error, "output.rc", line 9: 
+  redeclared identifier 'boolConst'.
+Error, "output.rc", line 10: 
+  redeclared identifier 'boolConst'.
+Error, "output.rc", line 10: 
+  Return required in function, none found.
+Error, "output.rc", line 11: 
+  redeclared identifier 'boolConst'.
+Error, "output.rc", line 11: 
+  Return required in function, none found.
+Error, "output.rc", line 15: 
+  Return required in function, none found.
+Error, "output.rc", line 16: 
+  Duplicate declaration of overloaded function foo.
+Error, "output.rc", line 16: 
+  Return required in function, none found.
+Error, "output.rc", line 21: 
+  Duplicate declaration of overloaded function foo2.
+Error, "output.rc", line 22: 
+  Duplicate declaration of overloaded function foo2.
+Error, "output.rc", line 22: 
+  Return in function requires a result expression, none found.
+Error, "output.rc", line 23: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "output.rc", line 26: 
+  Duplicate declaration of overloaded function foo3.
+Error, "output.rc", line 34: 
+  Duplicate declaration of overloaded function bar.
+Error, "output.rc", line 45: 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "output.rc", line 72: 
+  Illegal call to overloaded function ggezez.
+Error, "output.rc", line 73: 
+  Argument of type int[5] not equivalent to reference parameter a, of type float[5].
+Error, "output.rc", line 74: 
+  Argument of type float[6] not equivalent to reference parameter a, of type float[5].
+Error, "output.rc", line 75: 
+  Illegal call to overloaded function ggezez.
+Error, "output.rc", line 76: 
+  Illegal call to overloaded function ggezez.
+Error, "output.rc", line 77: 
+  Argument of type int not equivalent to reference parameter a, of type float[5].
+Error, "output.rc", line 78: 
+  Number of arguments (3) differs from number of parameters (1).
+Error, "output.rc", line 83: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 85: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 87: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 88: 
+  Illegal call to overloaded function bar.
+Error, "output.rc", line 95: 
+  Initialization value of constant named c8_1 not known at compile time.
+Error, "output.rc", line 96: 
+  Initialization value of constant named c8_1_2 not known at compile time.
+Error, "output.rc", line 97: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "output.rc", line 98: 
+  Initialization value of type float not assignable to constant/variable of type int.
+Error, "output.rc", line 99: 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "output.rc", line 100: 
+  redeclared identifier 'c8_3'.
+Error, "output.rc", line 100: 
+  Initialization value of constant named c8_3 not known at compile time.
+Error, "output.rc", line 102: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 103: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 104: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 105: 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "output.rc", line 106: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 107: 
+  Arithmetic exception occurred during constant folding.
+Error, "output.rc", line 115: 
+  Initialization value of constant named c8_14 not known at compile time.
+Error, "output.rc", line 117: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 118: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 119: 
+  undeclared identifier 'c8_14'.
+Error, "output.rc", line 120: 
+  undeclared identifier 'c8_14'.
+Error, "output.rc", line 124: 
+  redeclared identifier 'c8_12'.
+Error, "output.rc", line 125: 
+  redeclared identifier 'c8_13'.
+Error, "output.rc", line 125: 
+  Initialization value of constant named c8_13 not known at compile time.
+Error, "output.rc", line 133: 
+  redeclared identifier 'ten1'.
+Error, "output.rc", line 135: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 136: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 137: 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "output.rc", line 138: 
+  Index expression type (float) in array declaration not equivalent to int.
+Error, "output.rc", line 139: 
+  Index expression value (-5) in array declaration must be > 0.
+Error, "output.rc", line 142: 
+  Index expression type (float) in array declaration not equivalent to int.
+Error, "output.rc", line 143: 
+  Value of index expression not known at compile time.
+Error, "output.rc", line 144: 
+  Index expression value (-10) in array declaration must be > 0.
+Error, "output.rc", line 146: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 156: 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "output.rc", line 167: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "output.rc", line 168: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "output.rc", line 169: 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Error, "output.rc", line 170: 
+  Type of expression referenced by array subscript (int) is not of array or pointer type.
+Error, "output.rc", line 171: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "output.rc", line 172: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "output.rc", line 173: 
+  Type of index expression in array reference (bool) not equivalent to int.
+Error, "output.rc", line 174: 
+  Index value of 3 is outside legal range [0,3).
+Error, "output.rc", line 177: 
+  Index value of 5 is outside legal range [0,5).
+Error, "output.rc", line 178: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 180: 
+  Value of type float[5] not assignable to variable of type int.
+Error, "output.rc", line 181: 
+  Value of type float not assignable to variable of type int.
+Error, "output.rc", line 182: 
+  Value of type bool[2][3][4][5][6] not assignable to variable of type int.
+Error, "output.rc", line 183: 
+  Value of type float[5][3][5] not assignable to variable of type int.
+Error, "output.rc", line 184: 
+  Value of type int[5] not assignable to variable of type int.
+Error, "output.rc", line 189: 
+  Index value of 3 is outside legal range [0,3).
+Error, "output.rc", line 190: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 191: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 192: 
+  Index value of -10 is outside legal range [0,4).
+Error, "output.rc", line 193: 
+  Type of expression referenced by array subscript (bool) is not of array or pointer type.
+Error, "output.rc", line 200: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 201: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 203: 
+  Index value of 5 is outside legal range [0,5).
+Error, "output.rc", line 206: 
+  Index value of 15 is outside legal range [0,5).
+Error, "output.rc", line 207: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "output.rc", line 208: 
+  Index value of -5 is outside legal range [0,5).
+Error, "output.rc", line 209: 
+  Index value of -1 is outside legal range [0,5).
+Error, "output.rc", line 210: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "output.rc", line 211: 
+  Index value of -50 is outside legal range [0,3).
+Error, "output.rc", line 214: 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "output.rc", line 215: 
+  Type of index expression in array reference (bool) not equivalent to int.
+Error, "output.rc", line 216: 
+  Type of index expression in array reference (bool[3][4][5][6]) not equivalent to int.
+Error, "output.rc", line 225: 
+  Type of expression referenced in foreach is not of array type.
+Error, "output.rc", line 226: 
+  Foreach array element of type int not assignable to value iteration variable x, of type bool.
+Error, "output.rc", line 229: 
+  Foreach array element of type int not equivalent to reference iteration variable x, of type float.
+Error, "output.rc", line 232: 
+  Foreach array element of type float[4] not assignable to value iteration variable x, of type float.
+Error, "output.rc", line 233: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 234: 
+  Foreach array element of type float not assignable to value iteration variable z, of type bool.
+Error, "output.rc", line 236: 
+  Type of expression referenced in foreach is not of array type.
+Error, "output.rc", line 243: 
+  Type of expression referenced in foreach is not of array type.
+Error, "output.rc", line 244: 
+  undeclared identifier 'c12'.
+Error, "output.rc", line 245: 
+  Foreach array element of type float[7] not assignable to value iteration variable x, of type int.
+Error, "output.rc", line 246: 
+  Foreach array element of type float[7] not assignable to value iteration variable x, of type float.
+Error, "output.rc", line 248: 
+  Type of expression referenced in foreach is not of array type.
+Error, "output.rc", line 249: 
+  Foreach array element of type bool[5] not assignable to value iteration variable x, of type bool.
+Error, "output.rc", line 251: 
+  Index value of 6 is outside legal range [0,5).
+Error, "output.rc", line 253: 
+  Break does not occur in a loop.
+Error, "output.rc", line 254: 
+  Continue does not occur in a loop.
+Error, "output.rc", line 259: 
+  Break does not occur in a loop.
+Error, "output.rc", line 260: 
+  Continue does not occur in a loop.
+Error, "output.rc", line 273: 
+  Break does not occur in a loop.
+Error, "output.rc", line 285: 
+  Break does not occur in a loop.
+Error, "output.rc", line 301: 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "output.rc", line 302: 
+  redeclared identifier 'mult1'.
+Error, "output.rc", line 304: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 305: 
+  redeclared identifier 'mult2'.
+Error, "output.rc", line 307: 
+  Operand to ++ is not a modifiable L-value.
+Error, "output.rc", line 313: 
+  Type of return expression (int), not assignment compatible with function's return type (void).
+Error, "output.rc", line 315: 
+  Duplicate declaration of overloaded function mult2.
+Compile: failure.

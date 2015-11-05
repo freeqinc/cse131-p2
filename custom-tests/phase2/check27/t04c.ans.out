@@ -1,0 +1,5 @@
+Error, "phase2/check27/t04c.rc", line 6: 
+  bool required for conditional test, int found.
+Error, "phase2/check27/t04c.rc", line 10: 
+  Incompatible type bool to binary operator +, numeric expected.
+Compile: failure.
